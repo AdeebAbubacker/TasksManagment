@@ -8,9 +8,13 @@ using TaskManagement.Infrastructure;
 using TaskManagment.Application;
 
 var builder = WebApplication.CreateBuilder(args);
+
+// Prevent automatic claim mapping
 JwtSecurityTokenHandler.DefaultInboundClaimTypeMap.Clear();
 
-// JWT Authentication
+// =========================
+// JWT AUTHENTICATION
+// =========================
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     .AddJwtBearer(options =>
     {
@@ -27,14 +31,34 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
         };
     });
 
+// =========================
+// CORS (Angular)
+// =========================
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAngular",
+        policy =>
+        {
+            policy
+                .WithOrigins("http://localhost:4200")
+                .AllowAnyHeader()
+                .AllowAnyMethod();
+        });
+});
+
 builder.Services.AddAuthorization();
 
+// =========================
+// APP SERVICES
+// =========================
 builder.Services.AddControllers();
 builder.Services.AddApplicationServices();
 builder.Services.AddInfrastrusturServices();
 builder.Services.AddHttpContextAccessor();
 
-// Swagger
+// =========================
+// SWAGGER + JWT SUPPORT
+// =========================
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(c =>
 {
@@ -51,7 +75,7 @@ builder.Services.AddSwaggerGen(c =>
         Scheme = "Bearer",
         BearerFormat = "JWT",
         In = ParameterLocation.Header,
-        Description = "Enter: Bearer {your JWT token}"
+        Description = "Enter: Bearer {token}"
     });
 
     c.AddSecurityRequirement(new OpenApiSecurityRequirement
@@ -72,6 +96,9 @@ builder.Services.AddSwaggerGen(c =>
 
 var app = builder.Build();
 
+// =========================
+// MIDDLEWARE PIPELINE
+// =========================
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
@@ -79,9 +106,18 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseCustomExceptionHandler();
-app.UseHttpsRedirection();
+
+// IMPORTANT: Routing → CORS → Auth
+app.UseRouting();
+
+app.UseCors("AllowAngular");
+
+// Disable HTTPS redirection for local dev
+// app.UseHttpsRedirection();
+
 app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
+
 app.Run();
