@@ -111,6 +111,23 @@ var userId = httpContextAccessor.HttpContext?
 
 ---
 
+Sample User Credentials
+----------------------------
+User -
+users
+user1234
+
+Admin - 
+admins
+admin1234
+-----------------------------------
+
+| Username | Password  | Role  | UserId    |
+| -------- | --------- | ----- | --------- |
+| admins   | admin1234 | Admin | admin-001 |
+| users    | user1234  | User  | user-001  |
+
+
 ## 📄 API Endpoints
 
 ### ➕ Create Task
