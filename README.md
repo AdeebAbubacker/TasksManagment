@@ -197,7 +197,7 @@ public async Task Handle_ValidCommand_ReturnsTaskId()
 ## 👨‍💻 Author
 
 **Developer:** Adeeb Abubacker
-**GitHub:** [https://github.com/YourUsername  ](https://github.com/AdeebAbubacker/TasksManagment)
+**GitHub:** https://github.com/AdeebAbubacker
 
 ---
 
