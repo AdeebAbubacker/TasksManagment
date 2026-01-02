@@ -1,0 +1,17 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using TaskManagment.Application.Features.Tasks.Queries.GetTasksList;
+using TaskManagment.Application.Utilities;
+using TaskManagment.Application.Utilities.Common;
+
+namespace TaskManagment.Application.Features.Tasks.Queries.GetMyTasksList
+
+{
+    public class GetMyTasksListQuery : MyTasksFilterDTO, IRequest<PaginatedDTO<TasksListDTO>>
+{
+
+}
+}
