@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "TpCHMPB/BV4=",
+  "dgSpecHash": "vUJcIXwnt60=",
   "success": true,
   "projectFilePath": "C:\\Users\\91884\\OneDrive\\Desktop\\TaskManagmentSystem\\TaskManagment\\TaskManagement.Infrastructure\\TaskManagement.Infrastructure.csproj",
   "expectedPackageFiles": [
@@ -25,6 +25,7 @@
     "C:\\Users\\91884\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.22\\microsoft.entityframeworkcore.abstractions.8.0.22.nupkg.sha512",
     "C:\\Users\\91884\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\8.0.22\\microsoft.entityframeworkcore.analyzers.8.0.22.nupkg.sha512",
     "C:\\Users\\91884\\.nuget\\packages\\microsoft.entityframeworkcore.design\\8.0.22\\microsoft.entityframeworkcore.design.8.0.22.nupkg.sha512",
+    "C:\\Users\\91884\\.nuget\\packages\\microsoft.entityframeworkcore.inmemory\\8.0.22\\microsoft.entityframeworkcore.inmemory.8.0.22.nupkg.sha512",
     "C:\\Users\\91884\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\8.0.22\\microsoft.entityframeworkcore.relational.8.0.22.nupkg.sha512",
     "C:\\Users\\91884\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\8.0.22\\microsoft.entityframeworkcore.sqlserver.8.0.22.nupkg.sha512",
     "C:\\Users\\91884\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\8.0.0\\microsoft.extensions.caching.abstractions.8.0.0.nupkg.sha512",

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "TaskManagemnt.Domain/1.0.0": {
+        "runtime": {
+          "TaskManagemnt.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TaskManagemnt.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,16 @@
+C:\Users\91884\OneDrive\Desktop\TaskManagmentSystem\TaskManagment\Task.Application\bin\Release\net8.0\TaskManagment.Application.deps.json
+C:\Users\91884\OneDrive\Desktop\TaskManagmentSystem\TaskManagment\Task.Application\bin\Release\net8.0\TaskManagment.Application.dll
+C:\Users\91884\OneDrive\Desktop\TaskManagmentSystem\TaskManagment\Task.Application\bin\Release\net8.0\TaskManagment.Application.pdb
+C:\Users\91884\OneDrive\Desktop\TaskManagmentSystem\TaskManagment\Task.Application\bin\Release\net8.0\TaskManagemnt.Domain.dll
+C:\Users\91884\OneDrive\Desktop\TaskManagmentSystem\TaskManagment\Task.Application\bin\Release\net8.0\TaskManagemnt.Domain.pdb
+C:\Users\91884\OneDrive\Desktop\TaskManagmentSystem\TaskManagment\Task.Application\obj\Release\net8.0\TaskManagment.Application.csproj.AssemblyReference.cache
+C:\Users\91884\OneDrive\Desktop\TaskManagmentSystem\TaskManagment\Task.Application\obj\Release\net8.0\TaskManagment.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\91884\OneDrive\Desktop\TaskManagmentSystem\TaskManagment\Task.Application\obj\Release\net8.0\TaskManagment.Application.AssemblyInfoInputs.cache
+C:\Users\91884\OneDrive\Desktop\TaskManagmentSystem\TaskManagment\Task.Application\obj\Release\net8.0\TaskManagment.Application.AssemblyInfo.cs
+C:\Users\91884\OneDrive\Desktop\TaskManagmentSystem\TaskManagment\Task.Application\obj\Release\net8.0\TaskManagment.Application.csproj.CoreCompileInputs.cache
+C:\Users\91884\OneDrive\Desktop\TaskManagmentSystem\TaskManagment\Task.Application\obj\Release\net8.0\TaskManagment.Application.sourcelink.json
+C:\Users\91884\OneDrive\Desktop\TaskManagmentSystem\TaskManagment\Task.Application\obj\Release\net8.0\TaskMana.18CDE86D.Up2Date
+C:\Users\91884\OneDrive\Desktop\TaskManagmentSystem\TaskManagment\Task.Application\obj\Release\net8.0\TaskManagment.Application.dll
+C:\Users\91884\OneDrive\Desktop\TaskManagmentSystem\TaskManagment\Task.Application\obj\Release\net8.0\refint\TaskManagment.Application.dll
+C:\Users\91884\OneDrive\Desktop\TaskManagmentSystem\TaskManagment\Task.Application\obj\Release\net8.0\TaskManagment.Application.pdb
+C:\Users\91884\OneDrive\Desktop\TaskManagmentSystem\TaskManagment\Task.Application\obj\Release\net8.0\ref\TaskManagment.Application.dll
