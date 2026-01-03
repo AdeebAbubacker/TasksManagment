@@ -165,14 +165,6 @@
             "schema": {
               "type": "string"
             }
-          },
-          {
-            "name": "OwnerUserId",
-            "in": "query",
-            "required": true,
-            "schema": {
-              "type": "string"
-            }
           }
         ],
         "responses": {

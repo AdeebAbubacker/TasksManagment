@@ -16,12 +16,11 @@ namespace TaskManagement.API.Controllers
         private static readonly Dictionary<string, (string Password, string Role, string UserId)> Users =
             new()
             {
-                //{ "admin", ("admin123", "Admin", "admin-001") },
-                //{ "user", ("user123", "User", "user-001") },
-                 { "admins", ("admin1234", "Admin", "admin-001") },
+                { "admins", ("admin1234", "Admin", "admin-001") },
                 { "users", ("user1234", "User", "user-001") },
-
-
+                { "suchitra655@gmail.com", ("Suchitra1234", "User", "user-002") },
+                { "lakshmi475@gmail.com", ("Lakshmi1234", "User", "user-003") },
+                { "abhilashSb@gmail.com", ("Abjilash1234", "User", "user-004") },
             };
 
         [HttpPost("login")]

@@ -8,11 +8,9 @@ using TaskManagement.Infrastructure;
 using TaskManagment.Application;
 
 var builder = WebApplication.CreateBuilder(args);
-
-// 🔥 IMPORTANT: Disable default claim mapping
 JwtSecurityTokenHandler.DefaultInboundClaimTypeMap.Clear();
 
-// 🔐 JWT Authentication
+// JWT Authentication
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     .AddJwtBearer(options =>
     {
@@ -34,6 +32,7 @@ builder.Services.AddAuthorization();
 builder.Services.AddControllers();
 builder.Services.AddApplicationServices();
 builder.Services.AddInfrastrusturServices();
+builder.Services.AddHttpContextAccessor();
 
 // Swagger
 builder.Services.AddEndpointsApiExplorer();
@@ -81,8 +80,6 @@ if (app.Environment.IsDevelopment())
 
 app.UseCustomExceptionHandler();
 app.UseHttpsRedirection();
-
-// 🔐 ORDER MATTERS
 app.UseAuthentication();
 app.UseAuthorization();
 

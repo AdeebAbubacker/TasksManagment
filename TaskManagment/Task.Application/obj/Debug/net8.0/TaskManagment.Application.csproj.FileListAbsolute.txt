@@ -13,3 +13,4 @@ C:\Users\91884\OneDrive\Desktop\TaskManagmentSystem\TaskManagment\Task.Applicati
 C:\Users\91884\OneDrive\Desktop\TaskManagmentSystem\TaskManagment\Task.Application\obj\Debug\net8.0\refint\TaskManagment.Application.dll
 C:\Users\91884\OneDrive\Desktop\TaskManagmentSystem\TaskManagment\Task.Application\obj\Debug\net8.0\TaskManagment.Application.pdb
 C:\Users\91884\OneDrive\Desktop\TaskManagmentSystem\TaskManagment\Task.Application\obj\Debug\net8.0\ref\TaskManagment.Application.dll
+C:\Users\91884\OneDrive\Desktop\TaskManagmentSystem\TaskManagment\Task.Application\obj\Debug\net8.0\TaskManagment.Application.sourcelink.json

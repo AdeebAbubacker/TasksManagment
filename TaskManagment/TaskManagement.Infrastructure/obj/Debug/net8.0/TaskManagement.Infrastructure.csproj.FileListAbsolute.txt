@@ -17,3 +17,4 @@ C:\Users\91884\OneDrive\Desktop\TaskManagmentSystem\TaskManagment\TaskManagement
 C:\Users\91884\OneDrive\Desktop\TaskManagmentSystem\TaskManagment\TaskManagement.Infrastructure\obj\Debug\net8.0\TaskManagement.Infrastructure.pdb
 C:\Users\91884\OneDrive\Desktop\TaskManagmentSystem\TaskManagment\TaskManagement.Infrastructure\obj\Debug\net8.0\TaskManagement.Infrastructure.genruntimeconfig.cache
 C:\Users\91884\OneDrive\Desktop\TaskManagmentSystem\TaskManagment\TaskManagement.Infrastructure\obj\Debug\net8.0\ref\TaskManagement.Infrastructure.dll
+C:\Users\91884\OneDrive\Desktop\TaskManagmentSystem\TaskManagment\TaskManagement.Infrastructure\obj\Debug\net8.0\TaskManagement.Infrastructure.sourcelink.json

@@ -81,7 +81,7 @@ namespace TaskManagement.API.Controllers
                 Title = dto.Title,
                 Description = dto.Description,
                 DueDate = dto.DueDate,
-                OwnerUserId = userId // 🔹 Users can update only their tasks
+                OwnerUserId = userId 
             };
 
             await mediator.Send(command);

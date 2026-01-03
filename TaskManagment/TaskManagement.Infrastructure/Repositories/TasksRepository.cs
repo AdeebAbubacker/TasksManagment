@@ -33,15 +33,14 @@ namespace TaskManagement.Infrastructure.Repositories
             return await queryable.OrderBy(x => x.Title).Paginate(filter.Page, filter.RecordsPerPage).ToListAsync();
         }
 
-        public async Task<IEnumerable<TaskItem>> GetUserFilter(MyTasksFilterDTO filter)
+
+        public async Task<IEnumerable<TaskItem>> GetUserFilter(string ownerUserId, MyTasksFilterDTO filter)
         {
             var queryable = context.TaskItems.AsQueryable();
 
-            // 🔹 Filter by logged-in user's ID
-            if (!string.IsNullOrWhiteSpace(filter.OwnerUserId))
-                queryable = queryable.Where(x => x.OwnerUserId == filter.OwnerUserId);
+            // 🔐 ENFORCED OWNERSHIP (NON-NEGOTIABLE)
+            queryable = queryable.Where(x => x.OwnerUserId == ownerUserId);
 
-            // 🔹 Optional Title filter
             if (!string.IsNullOrWhiteSpace(filter.Title))
                 queryable = queryable.Where(x => x.Title.Contains(filter.Title));
 
@@ -51,5 +50,22 @@ namespace TaskManagement.Infrastructure.Repositories
                 .ToListAsync();
         }
 
+        public async Task<IEnumerable<TaskItem>> GetUserTasks(
+        string ownerUserId,
+        MyTasksFilterDTO filter)
+        {
+            var queryable = context.TaskItems.AsQueryable();
+
+            // 🔐 HARD SECURITY FILTER
+            queryable = queryable.Where(x => x.OwnerUserId == ownerUserId);
+
+            if (!string.IsNullOrWhiteSpace(filter.Title))
+                queryable = queryable.Where(x => x.Title.Contains(filter.Title));
+
+            return await queryable
+                .OrderBy(x => x.Title)
+                .Paginate(filter.Page, filter.RecordsPerPage)
+                .ToListAsync();
+        }
     }
 }

@@ -3,28 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\91884\\OneDrive\\Desktop\\TaskManagmentSystem\\TaskManagment\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3C09FD25-C00C-405D-A92B-B4017E75AE79}|TasManagment.Tests\\TasManagment.Tests.csproj|c:\\users\\91884\\onedrive\\desktop\\taskmanagmentsystem\\taskmanagment\\tasmanagment.tests\\createtaskscommandhandlertets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C09FD25-C00C-405D-A92B-B4017E75AE79}|TasManagment.Tests\\TasManagment.Tests.csproj|solutionrelative:tasmanagment.tests\\createtaskscommandhandlertets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B6B1B43B-EE8D-40F8-95AF-FBB909A5B43A}|Task.Application\\TaskManagment.Application.csproj|c:\\users\\91884\\onedrive\\desktop\\taskmanagmentsystem\\taskmanagment\\task.application\\contracts\\repositories\\itasksrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6B1B43B-EE8D-40F8-95AF-FBB909A5B43A}|Task.Application\\TaskManagment.Application.csproj|solutionrelative:task.application\\contracts\\repositories\\itasksrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{29A31454-9A64-49AF-A223-DC358597E509}|Task.Domain\\TaskManagemnt.Domain.csproj|c:\\users\\91884\\onedrive\\desktop\\taskmanagmentsystem\\taskmanagment\\task.domain\\entities\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{29A31454-9A64-49AF-A223-DC358597E509}|Task.Domain\\TaskManagemnt.Domain.csproj|solutionrelative:task.domain\\entities\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B6B1B43B-EE8D-40F8-95AF-FBB909A5B43A}|Task.Application\\TaskManagment.Application.csproj|c:\\users\\91884\\onedrive\\desktop\\taskmanagmentsystem\\taskmanagment\\task.application\\features\\tasks\\queries\\getmytaskslist\\getmytaskslistqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6B1B43B-EE8D-40F8-95AF-FBB909A5B43A}|Task.Application\\TaskManagment.Application.csproj|solutionrelative:task.application\\features\\tasks\\queries\\getmytaskslist\\getmytaskslistqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{29A31454-9A64-49AF-A223-DC358597E509}|Task.Domain\\TaskManagemnt.Domain.csproj|c:\\users\\91884\\onedrive\\desktop\\taskmanagmentsystem\\taskmanagment\\task.domain\\taskmanagemnt.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{29A31454-9A64-49AF-A223-DC358597E509}|Task.Domain\\TaskManagemnt.Domain.csproj|solutionrelative:task.domain\\taskmanagemnt.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{B6B1B43B-EE8D-40F8-95AF-FBB909A5B43A}|Task.Application\\TaskManagment.Application.csproj|c:\\users\\91884\\onedrive\\desktop\\taskmanagmentsystem\\taskmanagment\\task.application\\features\\tasks\\queries\\getmytaskslist\\getmytaskslistquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6B1B43B-EE8D-40F8-95AF-FBB909A5B43A}|Task.Application\\TaskManagment.Application.csproj|solutionrelative:task.application\\features\\tasks\\queries\\getmytaskslist\\getmytaskslistquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3C09FD25-C00C-405D-A92B-B4017E75AE79}|TasManagment.Tests\\TasManagment.Tests.csproj|c:\\users\\91884\\onedrive\\desktop\\taskmanagmentsystem\\taskmanagment\\tasmanagment.tests\\tasmanagment.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{3C09FD25-C00C-405D-A92B-B4017E75AE79}|TasManagment.Tests\\TasManagment.Tests.csproj|solutionrelative:tasmanagment.tests\\tasmanagment.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3C09FD25-C00C-405D-A92B-B4017E75AE79}|TasManagment.Tests\\TasManagment.Tests.csproj|c:\\users\\91884\\onedrive\\desktop\\taskmanagmentsystem\\taskmanagment\\tasmanagment.tests\\taskitem\\taskitemtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C09FD25-C00C-405D-A92B-B4017E75AE79}|TasManagment.Tests\\TasManagment.Tests.csproj|solutionrelative:tasmanagment.tests\\taskitem\\taskitemtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3C09FD25-C00C-405D-A92B-B4017E75AE79}|TasManagment.Tests\\TasManagment.Tests.csproj|c:\\users\\91884\\onedrive\\desktop\\taskmanagmentsystem\\taskmanagment\\tasmanagment.tests\\test1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C09FD25-C00C-405D-A92B-B4017E75AE79}|TasManagment.Tests\\TasManagment.Tests.csproj|solutionrelative:tasmanagment.tests\\test1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2F768639-E160-49B8-9CDB-D44401FA7687}|TaskManagement.API\\TaskManagement.API.csproj|c:\\users\\91884\\onedrive\\desktop\\taskmanagmentsystem\\taskmanagment\\taskmanagement.api\\controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F768639-E160-49B8-9CDB-D44401FA7687}|TaskManagement.API\\TaskManagement.API.csproj|solutionrelative:taskmanagement.api\\controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2F768639-E160-49B8-9CDB-D44401FA7687}|TaskManagement.API\\TaskManagement.API.csproj|c:\\users\\91884\\onedrive\\desktop\\taskmanagmentsystem\\taskmanagment\\taskmanagement.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -35,72 +27,44 @@
       "RelativeMoniker": "D:0:0:{FED69E95-B880-41EB-BE6B-856C4D0F24F9}|TaskManagement.Infrastructure\\TaskManagement.Infrastructure.csproj|solutionrelative:taskmanagement.infrastructure\\repositories\\tasksrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B6B1B43B-EE8D-40F8-95AF-FBB909A5B43A}|Task.Application\\TaskManagment.Application.csproj|c:\\users\\91884\\onedrive\\desktop\\taskmanagmentsystem\\taskmanagment\\task.application\\features\\tasks\\queries\\getmytaskslist\\getmytaskslistqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6B1B43B-EE8D-40F8-95AF-FBB909A5B43A}|Task.Application\\TaskManagment.Application.csproj|solutionrelative:task.application\\features\\tasks\\queries\\getmytaskslist\\getmytaskslistqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B6B1B43B-EE8D-40F8-95AF-FBB909A5B43A}|Task.Application\\TaskManagment.Application.csproj|c:\\users\\91884\\onedrive\\desktop\\taskmanagmentsystem\\taskmanagment\\task.application\\repositories\\itasksrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6B1B43B-EE8D-40F8-95AF-FBB909A5B43A}|Task.Application\\TaskManagment.Application.csproj|solutionrelative:task.application\\repositories\\itasksrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B6B1B43B-EE8D-40F8-95AF-FBB909A5B43A}|Task.Application\\TaskManagment.Application.csproj|c:\\users\\91884\\onedrive\\desktop\\taskmanagmentsystem\\taskmanagment\\task.application\\features\\tasks\\queries\\gettaskslist\\gettaskslistquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6B1B43B-EE8D-40F8-95AF-FBB909A5B43A}|Task.Application\\TaskManagment.Application.csproj|solutionrelative:task.application\\features\\tasks\\queries\\gettaskslist\\gettaskslistquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B6B1B43B-EE8D-40F8-95AF-FBB909A5B43A}|Task.Application\\TaskManagment.Application.csproj|c:\\users\\91884\\onedrive\\desktop\\taskmanagmentsystem\\taskmanagment\\task.application\\utilities\\irequesthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6B1B43B-EE8D-40F8-95AF-FBB909A5B43A}|Task.Application\\TaskManagment.Application.csproj|solutionrelative:task.application\\utilities\\irequesthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B6B1B43B-EE8D-40F8-95AF-FBB909A5B43A}|Task.Application\\TaskManagment.Application.csproj|c:\\users\\91884\\onedrive\\desktop\\taskmanagmentsystem\\taskmanagment\\task.application\\contracts\\repositories\\itasksrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6B1B43B-EE8D-40F8-95AF-FBB909A5B43A}|Task.Application\\TaskManagment.Application.csproj|solutionrelative:task.application\\contracts\\repositories\\itasksrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B6B1B43B-EE8D-40F8-95AF-FBB909A5B43A}|Task.Application\\TaskManagment.Application.csproj|c:\\users\\91884\\onedrive\\desktop\\taskmanagmentsystem\\taskmanagment\\task.application\\utilities\\imediator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6B1B43B-EE8D-40F8-95AF-FBB909A5B43A}|Task.Application\\TaskManagment.Application.csproj|solutionrelative:task.application\\utilities\\imediator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B6B1B43B-EE8D-40F8-95AF-FBB909A5B43A}|Task.Application\\TaskManagment.Application.csproj|c:\\users\\91884\\onedrive\\desktop\\taskmanagmentsystem\\taskmanagment\\task.application\\features\\tasks\\queries\\getmytaskslist\\getmytaskslistquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6B1B43B-EE8D-40F8-95AF-FBB909A5B43A}|Task.Application\\TaskManagment.Application.csproj|solutionrelative:task.application\\features\\tasks\\queries\\getmytaskslist\\getmytaskslistquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B6B1B43B-EE8D-40F8-95AF-FBB909A5B43A}|Task.Application\\TaskManagment.Application.csproj|c:\\users\\91884\\onedrive\\desktop\\taskmanagmentsystem\\taskmanagment\\task.application\\utilities\\irequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6B1B43B-EE8D-40F8-95AF-FBB909A5B43A}|Task.Application\\TaskManagment.Application.csproj|solutionrelative:task.application\\utilities\\irequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F768639-E160-49B8-9CDB-D44401FA7687}|TaskManagement.API\\TaskManagement.API.csproj|c:\\users\\91884\\onedrive\\desktop\\taskmanagmentsystem\\taskmanagment\\taskmanagement.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F768639-E160-49B8-9CDB-D44401FA7687}|TaskManagement.API\\TaskManagement.API.csproj|solutionrelative:taskmanagement.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6B1B43B-EE8D-40F8-95AF-FBB909A5B43A}|Task.Application\\TaskManagment.Application.csproj|c:\\users\\91884\\onedrive\\desktop\\taskmanagmentsystem\\taskmanagment\\task.application\\taskmanagment.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B6B1B43B-EE8D-40F8-95AF-FBB909A5B43A}|Task.Application\\TaskManagment.Application.csproj|solutionrelative:task.application\\taskmanagment.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B6B1B43B-EE8D-40F8-95AF-FBB909A5B43A}|Task.Application\\TaskManagment.Application.csproj|c:\\users\\91884\\onedrive\\desktop\\taskmanagmentsystem\\taskmanagment\\task.application\\features\\tasks\\queries\\getmytaskslist\\mytasksfilterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B6B1B43B-EE8D-40F8-95AF-FBB909A5B43A}|Task.Application\\TaskManagment.Application.csproj|solutionrelative:task.application\\features\\tasks\\queries\\getmytaskslist\\mytasksfilterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2F768639-E160-49B8-9CDB-D44401FA7687}|TaskManagement.API\\TaskManagement.API.csproj|c:\\users\\91884\\onedrive\\desktop\\taskmanagmentsystem\\taskmanagment\\taskmanagement.api\\controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2F768639-E160-49B8-9CDB-D44401FA7687}|TaskManagement.API\\TaskManagement.API.csproj|solutionrelative:taskmanagement.api\\controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FED69E95-B880-41EB-BE6B-856C4D0F24F9}|TaskManagement.Infrastructure\\TaskManagement.Infrastructure.csproj|c:\\users\\91884\\onedrive\\desktop\\taskmanagmentsystem\\taskmanagment\\taskmanagement.infrastructure\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FED69E95-B880-41EB-BE6B-856C4D0F24F9}|TaskManagement.Infrastructure\\TaskManagement.Infrastructure.csproj|solutionrelative:taskmanagement.infrastructure\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B6B1B43B-EE8D-40F8-95AF-FBB909A5B43A}|Task.Application\\TaskManagment.Application.csproj|c:\\users\\91884\\onedrive\\desktop\\taskmanagmentsystem\\taskmanagment\\task.application\\features\\tasks\\queries\\getmytaskslist\\mapperextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6B1B43B-EE8D-40F8-95AF-FBB909A5B43A}|Task.Application\\TaskManagment.Application.csproj|solutionrelative:task.application\\features\\tasks\\queries\\getmytaskslist\\mapperextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2F768639-E160-49B8-9CDB-D44401FA7687}|TaskManagement.API\\TaskManagement.API.csproj|c:\\users\\91884\\onedrive\\desktop\\taskmanagmentsystem\\taskmanagment\\taskmanagement.api\\helpers\\claimsprincipalextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F768639-E160-49B8-9CDB-D44401FA7687}|TaskManagement.API\\TaskManagement.API.csproj|solutionrelative:taskmanagement.api\\helpers\\claimsprincipalextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B6B1B43B-EE8D-40F8-95AF-FBB909A5B43A}|Task.Application\\TaskManagment.Application.csproj|c:\\users\\91884\\onedrive\\desktop\\taskmanagmentsystem\\taskmanagment\\task.application\\features\\tasks\\queries\\gettaskslist\\gettaskslistqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6B1B43B-EE8D-40F8-95AF-FBB909A5B43A}|Task.Application\\TaskManagment.Application.csproj|solutionrelative:task.application\\features\\tasks\\queries\\gettaskslist\\gettaskslistqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B6B1B43B-EE8D-40F8-95AF-FBB909A5B43A}|Task.Application\\TaskManagment.Application.csproj|c:\\users\\91884\\onedrive\\desktop\\taskmanagmentsystem\\taskmanagment\\task.application\\features\\tasks\\queries\\gettaskslist\\mapperextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6B1B43B-EE8D-40F8-95AF-FBB909A5B43A}|Task.Application\\TaskManagment.Application.csproj|solutionrelative:task.application\\features\\tasks\\queries\\gettaskslist\\mapperextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B6B1B43B-EE8D-40F8-95AF-FBB909A5B43A}|Task.Application\\TaskManagment.Application.csproj|c:\\users\\91884\\onedrive\\desktop\\taskmanagmentsystem\\taskmanagment\\task.application\\features\\tasks\\queries\\gettaskslist\\tasksfilterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6B1B43B-EE8D-40F8-95AF-FBB909A5B43A}|Task.Application\\TaskManagment.Application.csproj|solutionrelative:task.application\\features\\tasks\\queries\\gettaskslist\\tasksfilterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B6B1B43B-EE8D-40F8-95AF-FBB909A5B43A}|Task.Application\\TaskManagment.Application.csproj|c:\\users\\91884\\onedrive\\desktop\\taskmanagmentsystem\\taskmanagment\\task.application\\features\\tasks\\queries\\gettaskslist\\taskslistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6B1B43B-EE8D-40F8-95AF-FBB909A5B43A}|Task.Application\\TaskManagment.Application.csproj|solutionrelative:task.application\\features\\tasks\\queries\\gettaskslist\\taskslistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2F768639-E160-49B8-9CDB-D44401FA7687}|TaskManagement.API\\TaskManagement.API.csproj|c:\\users\\91884\\onedrive\\desktop\\taskmanagmentsystem\\taskmanagment\\taskmanagement.api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2F768639-E160-49B8-9CDB-D44401FA7687}|TaskManagement.API\\TaskManagement.API.csproj|solutionrelative:taskmanagement.api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B6B1B43B-EE8D-40F8-95AF-FBB909A5B43A}|Task.Application\\TaskManagment.Application.csproj|c:\\users\\91884\\onedrive\\desktop\\taskmanagmentsystem\\taskmanagment\\task.application\\features\\tasks\\commands\\createtasks\\createtaskscommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6B1B43B-EE8D-40F8-95AF-FBB909A5B43A}|Task.Application\\TaskManagment.Application.csproj|solutionrelative:task.application\\features\\tasks\\commands\\createtasks\\createtaskscommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B6B1B43B-EE8D-40F8-95AF-FBB909A5B43A}|Task.Application\\TaskManagment.Application.csproj|c:\\users\\91884\\onedrive\\desktop\\taskmanagmentsystem\\taskmanagment\\task.application\\contracts\\persistance\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6B1B43B-EE8D-40F8-95AF-FBB909A5B43A}|Task.Application\\TaskManagment.Application.csproj|solutionrelative:task.application\\contracts\\persistance\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B6B1B43B-EE8D-40F8-95AF-FBB909A5B43A}|Task.Application\\TaskManagment.Application.csproj|c:\\users\\91884\\onedrive\\desktop\\taskmanagmentsystem\\taskmanagment\\task.application\\contracts\\repositories\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6B1B43B-EE8D-40F8-95AF-FBB909A5B43A}|Task.Application\\TaskManagment.Application.csproj|solutionrelative:task.application\\contracts\\repositories\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2F768639-E160-49B8-9CDB-D44401FA7687}|TaskManagement.API\\TaskManagement.API.csproj|c:\\users\\91884\\onedrive\\desktop\\taskmanagmentsystem\\taskmanagment\\taskmanagement.api\\dtos\\createtaskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2F768639-E160-49B8-9CDB-D44401FA7687}|TaskManagement.API\\TaskManagement.API.csproj|solutionrelative:taskmanagement.api\\dtos\\createtaskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2F768639-E160-49B8-9CDB-D44401FA7687}|TaskManagement.API\\TaskManagement.API.csproj|c:\\users\\91884\\onedrive\\desktop\\taskmanagmentsystem\\taskmanagment\\taskmanagement.api\\dtos\\updatetasksdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2F768639-E160-49B8-9CDB-D44401FA7687}|TaskManagement.API\\TaskManagement.API.csproj|solutionrelative:taskmanagement.api\\dtos\\updatetasksdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2F768639-E160-49B8-9CDB-D44401FA7687}|TaskManagement.API\\TaskManagement.API.csproj|c:\\users\\91884\\onedrive\\desktop\\taskmanagmentsystem\\taskmanagment\\taskmanagement.api\\taskmanagement.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2F768639-E160-49B8-9CDB-D44401FA7687}|TaskManagement.API\\TaskManagement.API.csproj|solutionrelative:taskmanagement.api\\taskmanagement.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -110,73 +74,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 201,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 6,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TaskItem.cs",
-              "DocumentMoniker": "C:\\Users\\91884\\OneDrive\\Desktop\\TaskManagmentSystem\\TaskManagment\\Task.Domain\\Entities\\TaskItem.cs",
-              "RelativeDocumentMoniker": "Task.Domain\\Entities\\TaskItem.cs",
-              "ToolTip": "C:\\Users\\91884\\OneDrive\\Desktop\\TaskManagmentSystem\\TaskManagment\\Task.Domain\\Entities\\TaskItem.cs",
-              "RelativeToolTip": "Task.Domain\\Entities\\TaskItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-02T11:52:31.446Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TaskManagemnt.Domain",
-              "DocumentMoniker": "C:\\Users\\91884\\OneDrive\\Desktop\\TaskManagmentSystem\\TaskManagment\\Task.Domain\\TaskManagemnt.Domain.csproj",
-              "RelativeDocumentMoniker": "Task.Domain\\TaskManagemnt.Domain.csproj",
-              "ToolTip": "C:\\Users\\91884\\OneDrive\\Desktop\\TaskManagmentSystem\\TaskManagment\\Task.Domain\\TaskManagemnt.Domain.csproj",
-              "RelativeToolTip": "Task.Domain\\TaskManagemnt.Domain.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-01-02T11:52:29.058Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "createTasksCommandHandlerTets.cs",
-              "DocumentMoniker": "C:\\Users\\91884\\OneDrive\\Desktop\\TaskManagmentSystem\\TaskManagment\\TasManagment.Tests\\createTasksCommandHandlerTets.cs",
-              "RelativeDocumentMoniker": "TasManagment.Tests\\createTasksCommandHandlerTets.cs",
-              "ToolTip": "C:\\Users\\91884\\OneDrive\\Desktop\\TaskManagmentSystem\\TaskManagment\\TasManagment.Tests\\createTasksCommandHandlerTets.cs",
-              "RelativeToolTip": "TasManagment.Tests\\createTasksCommandHandlerTets.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-02T11:46:37.691Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "TaskItemTests.cs",
-              "DocumentMoniker": "C:\\Users\\91884\\OneDrive\\Desktop\\TaskManagmentSystem\\TaskManagment\\TasManagment.Tests\\TaskItem\\TaskItemTests.cs",
-              "RelativeDocumentMoniker": "TasManagment.Tests\\TaskItem\\TaskItemTests.cs",
-              "ToolTip": "C:\\Users\\91884\\OneDrive\\Desktop\\TaskManagmentSystem\\TaskManagment\\TasManagment.Tests\\TaskItem\\TaskItemTests.cs",
-              "RelativeToolTip": "TasManagment.Tests\\TaskItem\\TaskItemTests.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-02T11:42:36.222Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TasManagment.Tests",
-              "DocumentMoniker": "C:\\Users\\91884\\OneDrive\\Desktop\\TaskManagmentSystem\\TaskManagment\\TasManagment.Tests\\TasManagment.Tests.csproj",
-              "RelativeDocumentMoniker": "TasManagment.Tests\\TasManagment.Tests.csproj",
-              "ToolTip": "C:\\Users\\91884\\OneDrive\\Desktop\\TaskManagmentSystem\\TaskManagment\\TasManagment.Tests\\TasManagment.Tests.csproj",
-              "RelativeToolTip": "TasManagment.Tests\\TasManagment.Tests.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-01-02T11:42:07.607Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
@@ -191,101 +90,166 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Test1.cs",
-              "DocumentMoniker": "C:\\Users\\91884\\OneDrive\\Desktop\\TaskManagmentSystem\\TaskManagment\\TasManagment.Tests\\Test1.cs",
-              "RelativeDocumentMoniker": "TasManagment.Tests\\Test1.cs",
-              "ToolTip": "C:\\Users\\91884\\OneDrive\\Desktop\\TaskManagmentSystem\\TaskManagment\\TasManagment.Tests\\Test1.cs",
-              "RelativeToolTip": "TasManagment.Tests\\Test1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "TasksController.cs",
+              "DocumentMoniker": "C:\\Users\\91884\\OneDrive\\Desktop\\TaskManagmentSystem\\TaskManagment\\TaskManagement.API\\Controllers\\TasksController.cs",
+              "RelativeDocumentMoniker": "TaskManagement.API\\Controllers\\TasksController.cs",
+              "ToolTip": "C:\\Users\\91884\\OneDrive\\Desktop\\TaskManagmentSystem\\TaskManagment\\TaskManagement.API\\Controllers\\TasksController.cs",
+              "RelativeToolTip": "TaskManagement.API\\Controllers\\TasksController.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAjwD0AAABoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-02T11:41:59.52Z",
+              "WhenOpened": "2026-01-03T07:07:31.828Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
+              "Title": "GetMyTasksListQuery.cs",
+              "DocumentMoniker": "C:\\Users\\91884\\OneDrive\\Desktop\\TaskManagmentSystem\\TaskManagment\\Task.Application\\Features\\Tasks\\Queries\\GetMyTasksList\\GetMyTasksListQuery.cs",
+              "RelativeDocumentMoniker": "Task.Application\\Features\\Tasks\\Queries\\GetMyTasksList\\GetMyTasksListQuery.cs",
+              "ToolTip": "C:\\Users\\91884\\OneDrive\\Desktop\\TaskManagmentSystem\\TaskManagment\\Task.Application\\Features\\Tasks\\Queries\\GetMyTasksList\\GetMyTasksListQuery.cs",
+              "RelativeToolTip": "Task.Application\\Features\\Tasks\\Queries\\GetMyTasksList\\GetMyTasksListQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-03T07:18:14.794Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GetMyTasksListQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\91884\\OneDrive\\Desktop\\TaskManagmentSystem\\TaskManagment\\Task.Application\\Features\\Tasks\\Queries\\GetMyTasksList\\GetMyTasksListQueryHandler.cs",
+              "RelativeDocumentMoniker": "Task.Application\\Features\\Tasks\\Queries\\GetMyTasksList\\GetMyTasksListQueryHandler.cs",
+              "ToolTip": "C:\\Users\\91884\\OneDrive\\Desktop\\TaskManagmentSystem\\TaskManagment\\Task.Application\\Features\\Tasks\\Queries\\GetMyTasksList\\GetMyTasksListQueryHandler.cs",
+              "RelativeToolTip": "Task.Application\\Features\\Tasks\\Queries\\GetMyTasksList\\GetMyTasksListQueryHandler.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACcAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-03T07:33:36.388Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ITasksRepository.cs",
+              "DocumentMoniker": "C:\\Users\\91884\\OneDrive\\Desktop\\TaskManagmentSystem\\TaskManagment\\Task.Application\\Contracts\\Repositories\\ITasksRepository.cs",
+              "RelativeDocumentMoniker": "Task.Application\\Contracts\\Repositories\\ITasksRepository.cs",
+              "ToolTip": "C:\\Users\\91884\\OneDrive\\Desktop\\TaskManagmentSystem\\TaskManagment\\Task.Application\\Contracts\\Repositories\\ITasksRepository.cs",
+              "RelativeToolTip": "Task.Application\\Contracts\\Repositories\\ITasksRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBAAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-03T08:38:29.864Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\91884\\OneDrive\\Desktop\\TaskManagmentSystem\\TaskManagment\\TaskManagement.API\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "TaskManagement.API\\Controllers\\AuthController.cs",
               "ToolTip": "C:\\Users\\91884\\OneDrive\\Desktop\\TaskManagmentSystem\\TaskManagment\\TaskManagement.API\\Controllers\\AuthController.cs",
               "RelativeToolTip": "TaskManagement.API\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAQwBcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-02T10:22:21.752Z",
+              "WhenOpened": "2026-01-03T08:46:55.651Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "GetMyTasksListQueryHandler.cs",
-              "DocumentMoniker": "C:\\Users\\91884\\OneDrive\\Desktop\\TaskManagmentSystem\\TaskManagment\\Task.Application\\Features\\Tasks\\Queries\\GetMyTasksList\\GetMyTasksListQueryHandler.cs",
-              "RelativeDocumentMoniker": "Task.Application\\Features\\Tasks\\Queries\\GetMyTasksList\\GetMyTasksListQueryHandler.cs",
-              "ToolTip": "C:\\Users\\91884\\OneDrive\\Desktop\\TaskManagmentSystem\\TaskManagment\\Task.Application\\Features\\Tasks\\Queries\\GetMyTasksList\\GetMyTasksListQueryHandler.cs",
-              "RelativeToolTip": "Task.Application\\Features\\Tasks\\Queries\\GetMyTasksList\\GetMyTasksListQueryHandler.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACIAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-02T11:23:40.238Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "GetMyTasksListQuery.cs",
-              "DocumentMoniker": "C:\\Users\\91884\\OneDrive\\Desktop\\TaskManagmentSystem\\TaskManagment\\Task.Application\\Features\\Tasks\\Queries\\GetMyTasksList\\GetMyTasksListQuery.cs",
-              "RelativeDocumentMoniker": "Task.Application\\Features\\Tasks\\Queries\\GetMyTasksList\\GetMyTasksListQuery.cs",
-              "ToolTip": "C:\\Users\\91884\\OneDrive\\Desktop\\TaskManagmentSystem\\TaskManagment\\Task.Application\\Features\\Tasks\\Queries\\GetMyTasksList\\GetMyTasksListQuery.cs",
-              "RelativeToolTip": "Task.Application\\Features\\Tasks\\Queries\\GetMyTasksList\\GetMyTasksListQuery.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-02T11:23:05.012Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "GetTasksListQuery.cs",
-              "DocumentMoniker": "C:\\Users\\91884\\OneDrive\\Desktop\\TaskManagmentSystem\\TaskManagment\\Task.Application\\Features\\Tasks\\Queries\\GetTasksList\\GetTasksListQuery.cs",
-              "RelativeDocumentMoniker": "Task.Application\\Features\\Tasks\\Queries\\GetTasksList\\GetTasksListQuery.cs",
-              "ToolTip": "C:\\Users\\91884\\OneDrive\\Desktop\\TaskManagmentSystem\\TaskManagment\\Task.Application\\Features\\Tasks\\Queries\\GetTasksList\\GetTasksListQuery.cs",
-              "RelativeToolTip": "Task.Application\\Features\\Tasks\\Queries\\GetTasksList\\GetTasksListQuery.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-02T10:21:14.297Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ITasksRepository.cs",
-              "DocumentMoniker": "C:\\Users\\91884\\OneDrive\\Desktop\\TaskManagmentSystem\\TaskManagment\\Task.Application\\Contracts\\Repositories\\ITasksRepository.cs",
-              "RelativeDocumentMoniker": "Task.Application\\Contracts\\Repositories\\ITasksRepository.cs",
-              "ToolTip": "C:\\Users\\91884\\OneDrive\\Desktop\\TaskManagmentSystem\\TaskManagment\\Task.Application\\Contracts\\Repositories\\ITasksRepository.cs",
-              "RelativeToolTip": "Task.Application\\Contracts\\Repositories\\ITasksRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBAAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-02T10:21:57.112Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
               "Title": "TasksRepository.cs",
               "DocumentMoniker": "C:\\Users\\91884\\OneDrive\\Desktop\\TaskManagmentSystem\\TaskManagment\\TaskManagement.Infrastructure\\Repositories\\TasksRepository.cs",
               "RelativeDocumentMoniker": "TaskManagement.Infrastructure\\Repositories\\TasksRepository.cs",
               "ToolTip": "C:\\Users\\91884\\OneDrive\\Desktop\\TaskManagmentSystem\\TaskManagment\\TaskManagement.Infrastructure\\Repositories\\TasksRepository.cs",
               "RelativeToolTip": "TaskManagement.Infrastructure\\Repositories\\TasksRepository.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAQwCgAAAA/AAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAzwBgAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-02T10:18:55.86Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ITasksRepository.cs",
+              "DocumentMoniker": "C:\\Users\\91884\\OneDrive\\Desktop\\TaskManagmentSystem\\TaskManagment\\Task.Application\\Repositories\\ITasksRepository.cs",
+              "RelativeDocumentMoniker": "Task.Application\\Repositories\\ITasksRepository.cs",
+              "ToolTip": "C:\\Users\\91884\\OneDrive\\Desktop\\TaskManagmentSystem\\TaskManagment\\Task.Application\\Repositories\\ITasksRepository.cs",
+              "RelativeToolTip": "Task.Application\\Repositories\\ITasksRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-03T07:27:32.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IMediator.cs",
+              "DocumentMoniker": "C:\\Users\\91884\\OneDrive\\Desktop\\TaskManagmentSystem\\TaskManagment\\Task.Application\\Utilities\\IMediator.cs",
+              "RelativeDocumentMoniker": "Task.Application\\Utilities\\IMediator.cs",
+              "ToolTip": "C:\\Users\\91884\\OneDrive\\Desktop\\TaskManagmentSystem\\TaskManagment\\Task.Application\\Utilities\\IMediator.cs",
+              "RelativeToolTip": "Task.Application\\Utilities\\IMediator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-03T07:51:29.403Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IRequestHandler.cs",
+              "DocumentMoniker": "C:\\Users\\91884\\OneDrive\\Desktop\\TaskManagmentSystem\\TaskManagment\\Task.Application\\Utilities\\IRequestHandler.cs",
+              "RelativeDocumentMoniker": "Task.Application\\Utilities\\IRequestHandler.cs",
+              "ToolTip": "C:\\Users\\91884\\OneDrive\\Desktop\\TaskManagmentSystem\\TaskManagment\\Task.Application\\Utilities\\IRequestHandler.cs",
+              "RelativeToolTip": "Task.Application\\Utilities\\IRequestHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-03T07:51:27.17Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IRequest.cs",
+              "DocumentMoniker": "C:\\Users\\91884\\OneDrive\\Desktop\\TaskManagmentSystem\\TaskManagment\\Task.Application\\Utilities\\IRequest.cs",
+              "RelativeDocumentMoniker": "Task.Application\\Utilities\\IRequest.cs",
+              "ToolTip": "C:\\Users\\91884\\OneDrive\\Desktop\\TaskManagmentSystem\\TaskManagment\\Task.Application\\Utilities\\IRequest.cs",
+              "RelativeToolTip": "Task.Application\\Utilities\\IRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-03T07:51:28.282Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\91884\\OneDrive\\Desktop\\TaskManagmentSystem\\TaskManagment\\TaskManagement.API\\Program.cs",
+              "RelativeDocumentMoniker": "TaskManagement.API\\Program.cs",
+              "ToolTip": "C:\\Users\\91884\\OneDrive\\Desktop\\TaskManagmentSystem\\TaskManagment\\TaskManagement.API\\Program.cs",
+              "RelativeToolTip": "TaskManagement.API\\Program.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAAEwAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-03T07:44:34.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "TaskManagment.Application",
+              "DocumentMoniker": "C:\\Users\\91884\\OneDrive\\Desktop\\TaskManagmentSystem\\TaskManagment\\Task.Application\\TaskManagment.Application.csproj",
+              "RelativeDocumentMoniker": "Task.Application\\TaskManagment.Application.csproj",
+              "ToolTip": "C:\\Users\\91884\\OneDrive\\Desktop\\TaskManagmentSystem\\TaskManagment\\Task.Application\\TaskManagment.Application.csproj",
+              "RelativeToolTip": "Task.Application\\TaskManagment.Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-01-03T07:37:14.364Z",
               "EditorCaption": ""
             },
             {
@@ -296,165 +260,48 @@
               "RelativeDocumentMoniker": "Task.Application\\Features\\Tasks\\Queries\\GetMyTasksList\\MyTasksFilterDTO.cs",
               "ToolTip": "C:\\Users\\91884\\OneDrive\\Desktop\\TaskManagmentSystem\\TaskManagment\\Task.Application\\Features\\Tasks\\Queries\\GetMyTasksList\\MyTasksFilterDTO.cs",
               "RelativeToolTip": "Task.Application\\Features\\Tasks\\Queries\\GetMyTasksList\\MyTasksFilterDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-02T11:22:45.861Z",
+              "WhenOpened": "2026-01-03T07:26:00.956Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "TasksController.cs",
-              "DocumentMoniker": "C:\\Users\\91884\\OneDrive\\Desktop\\TaskManagmentSystem\\TaskManagment\\TaskManagement.API\\Controllers\\TasksController.cs",
-              "RelativeDocumentMoniker": "TaskManagement.API\\Controllers\\TasksController.cs",
-              "ToolTip": "C:\\Users\\91884\\OneDrive\\Desktop\\TaskManagmentSystem\\TaskManagment\\TaskManagement.API\\Controllers\\TasksController.cs",
-              "RelativeToolTip": "TaskManagement.API\\Controllers\\TasksController.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAYwEAAAAA5AAAAAAAAAA==",
+              "Title": "Repository.cs",
+              "DocumentMoniker": "C:\\Users\\91884\\OneDrive\\Desktop\\TaskManagmentSystem\\TaskManagment\\TaskManagement.Infrastructure\\Repositories\\Repository.cs",
+              "RelativeDocumentMoniker": "TaskManagement.Infrastructure\\Repositories\\Repository.cs",
+              "ToolTip": "C:\\Users\\91884\\OneDrive\\Desktop\\TaskManagmentSystem\\TaskManagment\\TaskManagement.Infrastructure\\Repositories\\Repository.cs",
+              "RelativeToolTip": "TaskManagement.Infrastructure\\Repositories\\Repository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA4AAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-02T10:22:22.722Z",
+              "WhenOpened": "2026-01-03T07:27:46.693Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "mapperExtensions.cs",
-              "DocumentMoniker": "C:\\Users\\91884\\OneDrive\\Desktop\\TaskManagmentSystem\\TaskManagment\\Task.Application\\Features\\Tasks\\Queries\\GetMyTasksList\\mapperExtensions.cs",
-              "RelativeDocumentMoniker": "Task.Application\\Features\\Tasks\\Queries\\GetMyTasksList\\mapperExtensions.cs",
-              "ToolTip": "C:\\Users\\91884\\OneDrive\\Desktop\\TaskManagmentSystem\\TaskManagment\\Task.Application\\Features\\Tasks\\Queries\\GetMyTasksList\\mapperExtensions.cs",
-              "RelativeToolTip": "Task.Application\\Features\\Tasks\\Queries\\GetMyTasksList\\mapperExtensions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAFAAAAAAAAAA==",
+              "Title": "ClaimsPrincipalExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\91884\\OneDrive\\Desktop\\TaskManagmentSystem\\TaskManagment\\TaskManagement.API\\Helpers\\ClaimsPrincipalExtensions.cs",
+              "RelativeDocumentMoniker": "TaskManagement.API\\Helpers\\ClaimsPrincipalExtensions.cs",
+              "ToolTip": "C:\\Users\\91884\\OneDrive\\Desktop\\TaskManagmentSystem\\TaskManagment\\TaskManagement.API\\Helpers\\ClaimsPrincipalExtensions.cs",
+              "RelativeToolTip": "TaskManagement.API\\Helpers\\ClaimsPrincipalExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-02T11:22:23.813Z",
+              "WhenOpened": "2026-01-03T07:14:50.563Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
-              "Title": "GetTasksListQueryHandler.cs",
-              "DocumentMoniker": "C:\\Users\\91884\\OneDrive\\Desktop\\TaskManagmentSystem\\TaskManagment\\Task.Application\\Features\\Tasks\\Queries\\GetTasksList\\GetTasksListQueryHandler.cs",
-              "RelativeDocumentMoniker": "Task.Application\\Features\\Tasks\\Queries\\GetTasksList\\GetTasksListQueryHandler.cs",
-              "ToolTip": "C:\\Users\\91884\\OneDrive\\Desktop\\TaskManagmentSystem\\TaskManagment\\Task.Application\\Features\\Tasks\\Queries\\GetTasksList\\GetTasksListQueryHandler.cs",
-              "RelativeToolTip": "Task.Application\\Features\\Tasks\\Queries\\GetTasksList\\GetTasksListQueryHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-02T10:21:31.78Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "mapperExtensions.cs",
-              "DocumentMoniker": "C:\\Users\\91884\\OneDrive\\Desktop\\TaskManagmentSystem\\TaskManagment\\Task.Application\\Features\\Tasks\\Queries\\GetTasksList\\mapperExtensions.cs",
-              "RelativeDocumentMoniker": "Task.Application\\Features\\Tasks\\Queries\\GetTasksList\\mapperExtensions.cs",
-              "ToolTip": "C:\\Users\\91884\\OneDrive\\Desktop\\TaskManagmentSystem\\TaskManagment\\Task.Application\\Features\\Tasks\\Queries\\GetTasksList\\mapperExtensions.cs",
-              "RelativeToolTip": "Task.Application\\Features\\Tasks\\Queries\\GetTasksList\\mapperExtensions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-02T10:18:38.243Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "TasksFilterDTO.cs",
-              "DocumentMoniker": "C:\\Users\\91884\\OneDrive\\Desktop\\TaskManagmentSystem\\TaskManagment\\Task.Application\\Features\\Tasks\\Queries\\GetTasksList\\TasksFilterDTO.cs",
-              "RelativeDocumentMoniker": "Task.Application\\Features\\Tasks\\Queries\\GetTasksList\\TasksFilterDTO.cs",
-              "ToolTip": "C:\\Users\\91884\\OneDrive\\Desktop\\TaskManagmentSystem\\TaskManagment\\Task.Application\\Features\\Tasks\\Queries\\GetTasksList\\TasksFilterDTO.cs",
-              "RelativeToolTip": "Task.Application\\Features\\Tasks\\Queries\\GetTasksList\\TasksFilterDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-02T10:21:22.374Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "TasksListDTO.cs",
-              "DocumentMoniker": "C:\\Users\\91884\\OneDrive\\Desktop\\TaskManagmentSystem\\TaskManagment\\Task.Application\\Features\\Tasks\\Queries\\GetTasksList\\TasksListDTO.cs",
-              "RelativeDocumentMoniker": "Task.Application\\Features\\Tasks\\Queries\\GetTasksList\\TasksListDTO.cs",
-              "ToolTip": "C:\\Users\\91884\\OneDrive\\Desktop\\TaskManagmentSystem\\TaskManagment\\Task.Application\\Features\\Tasks\\Queries\\GetTasksList\\TasksListDTO.cs",
-              "RelativeToolTip": "Task.Application\\Features\\Tasks\\Queries\\GetTasksList\\TasksListDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-02T10:21:23.981Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "WeatherForecastController.cs",
-              "DocumentMoniker": "C:\\Users\\91884\\OneDrive\\Desktop\\TaskManagmentSystem\\TaskManagment\\TaskManagement.API\\Controllers\\WeatherForecastController.cs",
-              "RelativeDocumentMoniker": "TaskManagement.API\\Controllers\\WeatherForecastController.cs",
-              "ToolTip": "C:\\Users\\91884\\OneDrive\\Desktop\\TaskManagmentSystem\\TaskManagment\\TaskManagement.API\\Controllers\\WeatherForecastController.cs",
-              "RelativeToolTip": "TaskManagement.API\\Controllers\\WeatherForecastController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-02T11:13:45.516Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "CreateTasksCommand.cs",
-              "DocumentMoniker": "C:\\Users\\91884\\OneDrive\\Desktop\\TaskManagmentSystem\\TaskManagment\\Task.Application\\Features\\Tasks\\Commands\\CreateTasks\\CreateTasksCommand.cs",
-              "RelativeDocumentMoniker": "Task.Application\\Features\\Tasks\\Commands\\CreateTasks\\CreateTasksCommand.cs",
-              "ToolTip": "C:\\Users\\91884\\OneDrive\\Desktop\\TaskManagmentSystem\\TaskManagment\\Task.Application\\Features\\Tasks\\Commands\\CreateTasks\\CreateTasksCommand.cs",
-              "RelativeToolTip": "Task.Application\\Features\\Tasks\\Commands\\CreateTasks\\CreateTasksCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-02T11:00:38.258Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "IUnitOfWork.cs",
-              "DocumentMoniker": "C:\\Users\\91884\\OneDrive\\Desktop\\TaskManagmentSystem\\TaskManagment\\Task.Application\\Contracts\\Persistance\\IUnitOfWork.cs",
-              "RelativeDocumentMoniker": "Task.Application\\Contracts\\Persistance\\IUnitOfWork.cs",
-              "ToolTip": "C:\\Users\\91884\\OneDrive\\Desktop\\TaskManagmentSystem\\TaskManagment\\Task.Application\\Contracts\\Persistance\\IUnitOfWork.cs",
-              "RelativeToolTip": "Task.Application\\Contracts\\Persistance\\IUnitOfWork.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-02T10:44:47.116Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "IRepository.cs",
-              "DocumentMoniker": "C:\\Users\\91884\\OneDrive\\Desktop\\TaskManagmentSystem\\TaskManagment\\Task.Application\\Contracts\\Repositories\\IRepository.cs",
-              "RelativeDocumentMoniker": "Task.Application\\Contracts\\Repositories\\IRepository.cs",
-              "ToolTip": "C:\\Users\\91884\\OneDrive\\Desktop\\TaskManagmentSystem\\TaskManagment\\Task.Application\\Contracts\\Repositories\\IRepository.cs",
-              "RelativeToolTip": "Task.Application\\Contracts\\Repositories\\IRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-02T10:44:58.351Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "CreateTaskDTO.cs",
-              "DocumentMoniker": "C:\\Users\\91884\\OneDrive\\Desktop\\TaskManagmentSystem\\TaskManagment\\TaskManagement.API\\DTOs\\CreateTaskDTO.cs",
-              "RelativeDocumentMoniker": "TaskManagement.API\\DTOs\\CreateTaskDTO.cs",
-              "ToolTip": "C:\\Users\\91884\\OneDrive\\Desktop\\TaskManagmentSystem\\TaskManagment\\TaskManagement.API\\DTOs\\CreateTaskDTO.cs",
-              "RelativeToolTip": "TaskManagement.API\\DTOs\\CreateTaskDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-02T10:18:59.313Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "UpdateTasksDTO.cs",
-              "DocumentMoniker": "C:\\Users\\91884\\OneDrive\\Desktop\\TaskManagmentSystem\\TaskManagment\\TaskManagement.API\\DTOs\\UpdateTasksDTO.cs",
-              "RelativeDocumentMoniker": "TaskManagement.API\\DTOs\\UpdateTasksDTO.cs",
-              "ToolTip": "C:\\Users\\91884\\OneDrive\\Desktop\\TaskManagmentSystem\\TaskManagment\\TaskManagement.API\\DTOs\\UpdateTasksDTO.cs",
-              "RelativeToolTip": "TaskManagement.API\\DTOs\\UpdateTasksDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-02T10:18:58.584Z",
+              "Title": "TaskManagement.API",
+              "DocumentMoniker": "C:\\Users\\91884\\OneDrive\\Desktop\\TaskManagmentSystem\\TaskManagment\\TaskManagement.API\\TaskManagement.API.csproj",
+              "RelativeDocumentMoniker": "TaskManagement.API\\TaskManagement.API.csproj",
+              "ToolTip": "C:\\Users\\91884\\OneDrive\\Desktop\\TaskManagmentSystem\\TaskManagment\\TaskManagement.API\\TaskManagement.API.csproj",
+              "RelativeToolTip": "TaskManagement.API\\TaskManagement.API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-01-03T07:14:17.68Z",
               "EditorCaption": ""
             }
           ]

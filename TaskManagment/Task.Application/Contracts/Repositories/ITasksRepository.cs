@@ -14,6 +14,6 @@ namespace TaskManagment.Application.Contracts.Repositories
 {
     Task<IEnumerable<TaskItem>> GetFiltered(TasksFilterDTO filter);
 
-     Task<IEnumerable<TaskItem>> GetUserFilter(MyTasksFilterDTO filter);
+     Task<IEnumerable<TaskItem>> GetUserFilter(String ownerUserId, MyTasksFilterDTO filter);
     }
 }

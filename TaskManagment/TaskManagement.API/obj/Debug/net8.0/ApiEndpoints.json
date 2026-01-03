@@ -136,11 +136,6 @@
         "Name": "Title",
         "Type": "System.String",
         "IsRequired": false
-      },
-      {
-        "Name": "OwnerUserId",
-        "Type": "System.String",
-        "IsRequired": false
       }
     ],
     "ReturnTypes": [

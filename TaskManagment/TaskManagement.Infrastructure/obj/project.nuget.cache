@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "NU2g9zNsMDw=",
+  "dgSpecHash": "TpCHMPB/BV4=",
   "success": true,
   "projectFilePath": "C:\\Users\\91884\\OneDrive\\Desktop\\TaskManagmentSystem\\TaskManagment\\TaskManagement.Infrastructure\\TaskManagement.Infrastructure.csproj",
   "expectedPackageFiles": [
@@ -9,6 +9,8 @@
     "C:\\Users\\91884\\.nuget\\packages\\fluentvalidation\\8.6.3\\fluentvalidation.8.6.3.nupkg.sha512",
     "C:\\Users\\91884\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\91884\\.nuget\\packages\\microsoft.aspnetcore.authorization\\8.0.22\\microsoft.aspnetcore.authorization.8.0.22.nupkg.sha512",
+    "C:\\Users\\91884\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.3.0\\microsoft.aspnetcore.http.abstractions.2.3.0.nupkg.sha512",
+    "C:\\Users\\91884\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.3.0\\microsoft.aspnetcore.http.features.2.3.0.nupkg.sha512",
     "C:\\Users\\91884\\.nuget\\packages\\microsoft.aspnetcore.metadata\\8.0.22\\microsoft.aspnetcore.metadata.8.0.22.nupkg.sha512",
     "C:\\Users\\91884\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
     "C:\\Users\\91884\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\3.3.3\\microsoft.codeanalysis.analyzers.3.3.3.nupkg.sha512",
