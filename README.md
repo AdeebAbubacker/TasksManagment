@@ -1,29 +1,45 @@
 <h1>📝 Task Management System – Backend API</h1>
 <!-- 🔴 LIVE DEMO SECTION START -->
 
-<div align="center">
+<p align="center">
+  <b>Live Demo</b><br/>
+  <a href="https://adeebabubacker.github.io/GtaskManagement/login" target="_blank">
+    👉 Open Task Management Application
+  </a>
+</p>
 
-  <marquee behavior="alternate" scrollamount="5">
-    🚀 LIVE DEMO AVAILABLE
-  </marquee>
+<br/>
 
-  <br/>
+<p align="center"><b>🔑 Demo Login Credentials</b></p>
 
-  <table>
-    <tr>
-      <td align="center">
-        <b>Task Management Application</b><br/><br/>
-        👉
-        <a href="https://adeebabubacker.github.io/GtaskManagement/login" target="_blank">
-          <b>Open Live Demo</b>
-        </a>
-      </td>
-    </tr>
-  </table>
+<table align="center">
+  <tr>
+    <th align="left">Role</th>
+    <th align="left">Username / Email</th>
+    <th align="left">Password</th>
+  </tr>
 
-</div>
+  <tr>
+    <td><b>User</b></td>
+    <td>users</td>
+    <td>user1234</td>
+  </tr>
+
+  <tr>
+    <td><b>User</b></td>
+    <td>suchitra655@gmail.com</td>
+    <td>Suchitra1234</td>
+  </tr>
+
+  <tr>
+    <td><b>Admin</b></td>
+    <td>admins</td>
+    <td>admin1234</td>
+  </tr>
+</table>
 
 <!-- 🔴 LIVE DEMO SECTION END -->
+
 
 
 
