@@ -1,56 +1,32 @@
 <h1>📝 Task Management System – Backend API</h1>
 <!-- 🌟 LIVE DEMO HIGHLIGHT START 🌟 -->
+
 <div align="center">
 
-  <style>
-    .live-demo-box {
-      border: 2px solid #00ffcc;
-      padding: 16px;
-      margin: 20px 0;
-      border-radius: 12px;
-      background: linear-gradient(90deg, #0f2027, #203a43, #2c5364);
-      color: #ffffff;
-      box-shadow: 0 0 15px rgba(0, 255, 204, 0.8);
-      animation: glow 1.5s infinite alternate;
-    }
-
-    .live-demo-link {
-      font-size: 20px;
-      font-weight: bold;
-      color: #00ffcc;
-      text-decoration: none;
-      animation: blink 1.2s infinite;
-    }
-
-    @keyframes blink {
-      0% { opacity: 1; }
-      50% { opacity: 0.4; }
-      100% { opacity: 1; }
-    }
-
-    @keyframes glow {
-      from { box-shadow: 0 0 10px #00ffcc; }
-      to { box-shadow: 0 0 25px #00ffcc; }
-    }
-  </style>
-
-  <marquee behavior="alternate" scrollamount="6">
-    🚀✨ LIVE DEMO AVAILABLE – TRY THE APPLICATION NOW ✨🚀
+  <marquee behavior="alternate" scrollamount="7">
+    🚀✨ <b>LIVE DEMO AVAILABLE – TRY THE APPLICATION NOW</b> ✨🚀
   </marquee>
 
-  <div class="live-demo-box">
-    🔴 <b>Live Demo:</b><br/><br/>
-    👉
-    <a
-      class="live-demo-link"
-      href="https://adeebabubacker.github.io/GtaskManagement/login"
-      target="_blank">
-      Click Here to Access Task Management App
-    </a>
-  </div>
+  <br/>
+
+  <table>
+    <tr>
+      <td align="center">
+        🔴 <b><mark>LIVE DEMO</mark></b><br/><br/>
+        👉👉👉 <br/>
+        <a href="https://adeebabubacker.github.io/GtaskManagement/login" target="_blank">
+          <b>🚀 Click Here to Access Task Management App 🚀</b>
+        </a>
+        <br/><br/>
+        ⭐⭐⭐⭐⭐
+      </td>
+    </tr>
+  </table>
 
 </div>
+
 <!-- 🌟 LIVE DEMO HIGHLIGHT END 🌟 -->
+
 
 <p>
   A clean and scalable <b>Task Management System Backend API</b> built using
