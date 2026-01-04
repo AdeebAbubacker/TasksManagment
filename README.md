@@ -19,7 +19,7 @@
 
 ### 🎯 Azure : 
 
-Login Api
+#### **1️⃣ Login API**
 
 ```bash
 curl --location --request POST \
@@ -31,7 +31,7 @@ curl --location --request POST \
   }'
 ```
 
-Create Tasks
+#### **2️⃣ Create Tasks**
 ```bash
 curl -X 'POST' \
   'https://weatherforecaste-bfcrb8afhhfufget.polandcentral-01.azurewebsites.net/api/Tasks' \
@@ -44,14 +44,14 @@ curl -X 'POST' \
 }'
 ```
 
-List My Tasks
+#### **3️⃣ List My Tasks**
 
 ```bash
 curl -X 'GET' \
   'https://weatherforecaste-bfcrb8afhhfufget.polandcentral-01.azurewebsites.net/api/mytasks' \
   -H 'accept: text/plain'
 ```
-List All Tasks (For Admin Only)
+#### **4️⃣ List All Tasks (For Admin Only)**
 
 ```bash
 curl -X 'GET' \
@@ -59,7 +59,7 @@ curl -X 'GET' \
   -H 'accept: text/plain'
 ```
 
-Edit Tasks
+#### **5️⃣ Edit Tasks**
 ```bash
 curl -X 'PUT' \
   'https://weatherforecaste-bfcrb8afhhfufget.polandcentral-01.azurewebsites.net/api/Tasks/{tasksID}' \
@@ -72,7 +72,7 @@ curl -X 'PUT' \
 }'
 ```
 
-Update Tasks Status (For Admin Only)
+#### **6️⃣ Update Tasks Status (For Admin Only)**
 ```bash
 curl -X 'PUT' \
   'https://weatherforecaste-bfcrb8afhhfufget.polandcentral-01.azurewebsites.net/api/Tasks/{tasksID}/status' \
