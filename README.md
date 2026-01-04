@@ -19,6 +19,8 @@
 
 ### 🎯 Azure : 
 
+Login Api
+
 ```bash
 curl --location --request POST \
   'https://weatherforecaste-bfcrb8afhhfufget.polandcentral-01.azurewebsites.net/api/Auth/login' \
@@ -29,7 +31,40 @@ curl --location --request POST \
   }'
 ```
 
+Create Tasks
+```bash
+curl -X 'POST' \
+  'https://weatherforecaste-bfcrb8afhhfufget.polandcentral-01.azurewebsites.net/api/Tasks' \
+  -H 'accept: */*' \
+  -H 'Content-Type: application/json' \
+  -d '{
+  "title": "string",
+  "description": "string",
+  "dueDate": "2026-01-04T15:46:21.388Z"
+}'
+```
 
+List My Tasks
+
+```bash
+curl -X 'GET' \
+  'https://weatherforecaste-bfcrb8afhhfufget.polandcentral-01.azurewebsites.net/api/mytasks' \
+  -H 'accept: text/plain'
+```
+List All Tasks (For Admin Only)
+
+```bash
+curl -X 'GET' \
+  'https://weatherforecaste-bfcrb8afhhfufget.polandcentral-01.azurewebsites.net/api/Tasks/all' \
+  -H 'accept: text/plain'
+```
+
+Edit Tasks
+```bash
+curl -X 'PUT' \
+  'https://weatherforecaste-bfcrb8afhhfufget.polandcentral-01.azurewebsites.net/api/Tasks/all' \
+  -H 'accept: text/plain'
+```
 
 <p>
   A clean and scalable <b>Task Management System Backend API</b> built using
