@@ -62,8 +62,25 @@ curl -X 'GET' \
 Edit Tasks
 ```bash
 curl -X 'PUT' \
-  'https://weatherforecaste-bfcrb8afhhfufget.polandcentral-01.azurewebsites.net/api/Tasks/all' \
-  -H 'accept: text/plain'
+  'https://weatherforecaste-bfcrb8afhhfufget.polandcentral-01.azurewebsites.net/api/Tasks/{tasksID}' \
+  -H 'accept: */*' \
+  -H 'Content-Type: application/json' \
+  -d '{
+  "title": "string",
+  "description": "string",
+  "dueDate": "2026-01-04T15:50:50.446Z"
+}'
+```
+
+Update Tasks Status
+```bash
+curl -X 'PUT' \
+  'https://weatherforecaste-bfcrb8afhhfufget.polandcentral-01.azurewebsites.net/api/Tasks/{tasksID}/status' \
+  -H 'accept: */*' \
+  -H 'Content-Type: application/json' \
+  -d '{
+  "isCompleted": true
+}'
 ```
 
 <p>
