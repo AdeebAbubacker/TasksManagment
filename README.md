@@ -72,7 +72,7 @@ curl -X 'PUT' \
 }'
 ```
 
-Update Tasks Status
+Update Tasks Status (For Admin Only)
 ```bash
 curl -X 'PUT' \
   'https://weatherforecaste-bfcrb8afhhfufget.polandcentral-01.azurewebsites.net/api/Tasks/{tasksID}/status' \
