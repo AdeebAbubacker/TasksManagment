@@ -1,10 +1,10 @@
 <h1>📝 Task Management System – Backend API</h1>
-<!-- 🌟 LIVE DEMO HIGHLIGHT START 🌟 -->
+<!-- 🔴 LIVE DEMO SECTION START -->
 
 <div align="center">
 
-  <marquee behavior="alternate" scrollamount="7">
-    🚀✨ <b>LIVE DEMO AVAILABLE – TRY THE APPLICATION NOW</b> ✨🚀
+  <marquee behavior="alternate" scrollamount="5">
+    🚀 LIVE DEMO AVAILABLE
   </marquee>
 
   <br/>
@@ -12,20 +12,19 @@
   <table>
     <tr>
       <td align="center">
-        🔴 <b><mark>LIVE DEMO</mark></b><br/><br/>
-        👉👉👉 <br/>
+        <b>Task Management Application</b><br/><br/>
+        👉
         <a href="https://adeebabubacker.github.io/GtaskManagement/login" target="_blank">
-          <b>🚀 Click Here to Access Task Management App 🚀</b>
+          <b>Open Live Demo</b>
         </a>
-        <br/><br/>
-        ⭐⭐⭐⭐⭐
       </td>
     </tr>
   </table>
 
 </div>
 
-<!-- 🌟 LIVE DEMO HIGHLIGHT END 🌟 -->
+<!-- 🔴 LIVE DEMO SECTION END -->
+
 
 
 <p>
