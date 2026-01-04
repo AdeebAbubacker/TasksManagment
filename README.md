@@ -240,7 +240,24 @@ public async Task Handle_ValidCommand_ReturnsTaskId()
 </ul>
 
 <hr/>
+## ⚙️ How to Run the Project
 
+### Prerequisites
+- Dotnet 8
+
+```bash
+npm install -g @angular/cli
+
+git clone https://github.com/AdeebAbubacker/TasksManagment
+
+cd TasksManagment
+
+dotnet restore
+
+```
+Then set TaskManagement.API as startup project and run
+
+ng serve --open
 <h2>👨‍💻 Author</h2>
 
 <p>
