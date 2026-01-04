@@ -1,4 +1,87 @@
 <h1>📝 Task Management System – Backend API</h1>
+## 🔴 Live Demo
+
+**Live Application:** [https://adeebabubacker.github.io/GtaskManagement/login](https://adeebabubacker.github.io/GtaskManagement/login)
+
+---
+
+## 👥 Demo Login Credentials
+
+| Role | Username / Email | Password |
+|------|------------------|----------|
+| **User** | `users` | `user1234` |
+| **User** | `suchitra655@gmail.com` | `Suchitra1234` |
+| **Admin** | `admins` | `admin1234` |
+
+---
+
+## ⚙️ Backend API Deployment
+
+### 🎯 Azure : 
+
+#### **1️⃣ Login API**
+
+```bash
+curl --location --request POST \
+  'https://weatherforecaste-bfcrb8afhhfufget.polandcentral-01.azurewebsites.net/api/Auth/login' \
+  --header 'Content-Type: application/json' \
+  --data-raw '{
+    "username": "users",
+    "password": "user1234"
+  }'
+```
+
+#### **2️⃣ Create Tasks**
+```bash
+curl -X 'POST' \
+  'https://weatherforecaste-bfcrb8afhhfufget.polandcentral-01.azurewebsites.net/api/Tasks' \
+  -H 'accept: */*' \
+  -H 'Content-Type: application/json' \
+  -d '{
+  "title": "string",
+  "description": "string",
+  "dueDate": "2026-01-04T15:46:21.388Z"
+}'
+```
+
+#### **3️⃣ List My Tasks**
+
+```bash
+curl -X 'GET' \
+  'https://weatherforecaste-bfcrb8afhhfufget.polandcentral-01.azurewebsites.net/api/mytasks' \
+  -H 'accept: text/plain'
+```
+#### **4️⃣ List All Tasks (For Admin Only)**
+
+```bash
+curl -X 'GET' \
+  'https://weatherforecaste-bfcrb8afhhfufget.polandcentral-01.azurewebsites.net/api/Tasks/all' \
+  -H 'accept: text/plain'
+```
+
+#### **5️⃣ Edit Tasks**
+```bash
+curl -X 'PUT' \
+  'https://weatherforecaste-bfcrb8afhhfufget.polandcentral-01.azurewebsites.net/api/Tasks/{tasksID}' \
+  -H 'accept: */*' \
+  -H 'Content-Type: application/json' \
+  -d '{
+  "title": "string",
+  "description": "string",
+  "dueDate": "2026-01-04T15:50:50.446Z"
+}'
+```
+
+#### **6️⃣ Update Tasks Status (For Admin Only)**
+```bash
+curl -X 'PUT' \
+  'https://weatherforecaste-bfcrb8afhhfufget.polandcentral-01.azurewebsites.net/api/Tasks/{tasksID}/status' \
+  -H 'accept: */*' \
+  -H 'Content-Type: application/json' \
+  -d '{
+  "isCompleted": true
+}'
+```
 
 <p>
   A clean and scalable <b>Task Management System Backend API</b> built using
