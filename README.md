@@ -91,17 +91,12 @@ TaskManagementSystem/
 
 <h2>🗄️ Database Configuration</h2>
 
-<p>
-  <b>Important Update:</b>
-</p>
-
 <ul>
-  <li>Previously used <b>SQL Server</b></li>
-  <li>Currently switched to <b>In-Memory Database</b></li>
+  <li><b> Uses In-Memory Database</b></li>
 </ul>
 
 <p>
-  <b>Reason:</b> Faster setup, no external dependency, ideal for demos and interviews.
+  <b>Reason:</b> Faster setup, no external dependency.
 </p>
 
 <pre>
