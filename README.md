@@ -1,44 +1,32 @@
 <h1>📝 Task Management System – Backend API</h1>
-<!-- 🔴 LIVE DEMO SECTION START -->
+## 🔴 Live Demo
 
-<p align="center">
-  <b>Live Demo</b><br/>
-  <a href="https://adeebabubacker.github.io/GtaskManagement/login" target="_blank">
-    👉 Open Task Management Application
-  </a>
-</p>
+**Live Application:** [https://adeebabubacker.github.io/GtaskManagement/login](https://adeebabubacker.github.io/GtaskManagement/login)
 
-<br/>
+---
 
-<p align="center"><b>🔑 Demo Login Credentials</b></p>
+## 👥 Demo Login Credentials
 
-<table align="center">
-  <tr>
-    <th align="left">Role</th>
-    <th align="left">Username / Email</th>
-    <th align="left">Password</th>
-  </tr>
+| Role | Username / Email | Password |
+|------|------------------|----------|
+| **User** | `users` | `user1234` |
+| **User** | `suchitra655@gmail.com` | `Suchitra1234` |
+| **Admin** | `admins` | `admin1234` |
 
-  <tr>
-    <td><b>User</b></td>
-    <td>users</td>
-    <td>user1234</td>
-  </tr>
+---
 
-  <tr>
-    <td><b>User</b></td>
-    <td>suchitra655@gmail.com</td>
-    <td>Suchitra1234</td>
-  </tr>
+## ⚙️ Backend API Deployment
 
-  <tr>
-    <td><b>Admin</b></td>
-    <td>admins</td>
-    <td>admin1234</td>
-  </tr>
-</table>
+### 🎯 Azure : 
 
-<!-- 🔴 LIVE DEMO SECTION END -->
+```bash
+curl --location --request POST \
+  'https://weatherforecaste-bfcrb8afhhfufget.polandcentral-01.azurewebsites.net/api/Auth/login' \
+  --header 'Content-Type: application/json' \
+  --data-raw '{
+    "username": "users",
+    "password": "user1234"
+  }'
 
 
 
