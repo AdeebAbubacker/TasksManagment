@@ -1,221 +1,262 @@
+<h1>📝 Task Management System – Backend API</h1>
 
-# 📝 Task Management System – Backend API
+<p>
+  A clean and scalable <b>Task Management System Backend API</b> built using
+  <b>ASP.NET Core Web API</b>, following <b>Clean Architecture</b>,
+  <b>JWT Authentication</b>, and <b>Role-Based Access Control</b>.
+</p>
 
-A clean and scalable **Task Management System API** built with **ASP.NET Core Web API** using **Clean Architecture**, **JWT Authentication**, and **role-based access control**.
+<p>
+  This backend serves an <b>Angular Frontend Task Management Application</b>
+  and focuses on security, maintainability, and scalability.
+</p>
 
----
+<hr/>
 
-## 🚀 Project Overview
+<h2>🚀 Project Overview</h2>
 
-This API allows authenticated users to:
+<ul>
+  <li>Create and manage tasks</li>
+  <li>Users can view <b>only their own tasks</b></li>
+  <li>Pagination and filtering support</li>
+  <li>JWT-secured endpoints</li>
+</ul>
 
-- Create and manage tasks
-- View **only their own tasks**
-- Apply pagination and filtering
-- Secure endpoints with JWT
+<hr/>
 
-Designed with **maintainability**, **testability**, and **scalability** in mind.
+<h2>🖥️ Frontend Integration</h2>
 
----
+<p>
+  The frontend for this system is built using <b>Angular</b>.
+</p>
 
-## 🏗️ Clean Architecture Structure
+<p>
+  🔗 <b>Frontend Repository:</b><br/>
+  <a href="https://github.com/AdeebAbubacker/GtaskManagement" target="_blank">
+    https://github.com/AdeebAbubacker/GtaskManagement
+  </a>
+</p>
 
-```
+<hr/>
+
+<h2>🏗️ Clean Architecture Structure</h2>
+
+<pre>
 TaskManagementSystem/
 ├── TaskManagement.API/
 │   ├── Controllers/
-│   │   └── TasksController.cs
 │   ├── Middleware/
-│   │   └── ErrorHandlingMiddleware.cs
 │   ├── Program.cs
 │   └── appsettings.json
 │
 ├── TaskManagement.Application/
 │   ├── Features/
-│   │   └── Tasks/
-│   │       ├── Commands/
-│   │       ├── Queries/
-│   │       └── DTOs/
 │   ├── Contracts/
-│   │   ├── Repositories/
-│   │   └── Persistence/
-│   ├── Utilities/
-│   │   └── SimpleMediator.cs
+│   └── Utilities/
 │
 ├── TaskManagement.Domain/
 │   ├── Entities/
-│   │   └── TaskItem.cs
 │   └── Common/
 │
 ├── TaskManagement.Infrastructure/
 │   ├── Data/
-│   │   └── TaskManagementDbContext.cs
 │   ├── Repositories/
-│   │   └── TasksRepository.cs
 │   └── Migrations/
 │
 └── TaskManagement.Tests/
-    └── CreateTasksCommandHandlerTests.cs
-```
+</pre>
 
----
+<hr/>
 
-## 🛠️ Tech Stack
+<h2>🛠️ Tech Stack</h2>
 
-- ASP.NET Core 8 Web API
-- C#
-- Entity Framework Core
-- SQL Server
-- JWT Authentication
-- Clean Architecture
-- Repository Pattern
-- Unit of Work
-- MSTest + NSubstitute
+<h4>Backend</h4>
+<ul>
+  <li>ASP.NET Core 8 Web API</li>
+  <li>C#</li>
+  <li>Entity Framework Core</li>
+  <li><b>In-Memory Database (Current)</b></li>
+  <li>JWT Authentication</li>
+  <li>Clean Architecture</li>
+  <li>Repository + Unit of Work Pattern</li>
+</ul>
 
----
+<h4>Testing</h4>
+<ul>
+  <li>MSTest</li>
+  <li>NSubstitute</li>
+</ul>
 
-## 🔐 Authentication & Security
+<hr/>
 
-- JWT-based Authentication
-- Custom JWT Claim: `userId`
-- User ID is **automatically extracted from token**
-- Users can access **only their own tasks**
+<h2>🗄️ Database Configuration</h2>
 
-```csharp
+<p>
+  <b>Important Update:</b>
+</p>
+
+<ul>
+  <li>Previously used <b>SQL Server</b></li>
+  <li>Currently switched to <b>In-Memory Database</b></li>
+</ul>
+
+<p>
+  <b>Reason:</b> Faster setup, no external dependency, ideal for demos and interviews.
+</p>
+
+<pre>
+builder.Services.AddDbContext&lt;TaskManagementDbContext&gt;(options =>
+    options.UseInMemoryDatabase("TaskManagementDb"));
+</pre>
+
+<hr/>
+
+<h2>🔐 Authentication & Security</h2>
+
+<ul>
+  <li>JWT-based Authentication</li>
+  <li>Custom JWT claim: <code>userId</code></li>
+  <li>User ID extracted automatically from token</li>
+  <li>Users can access <b>only their own tasks</b></li>
+</ul>
+
+<pre>
 var userId = httpContextAccessor.HttpContext?
     .User.FindFirst("userId")?.Value;
-```
+</pre>
 
----
+<hr/>
 
-## 📦 Features
+<h2>📦 Features</h2>
 
-### ✅ Task Management
-- Create Task
-- Get All Tasks
-- Get My Tasks (User-specific)
-- Pagination & Filtering
-- Secure ownership validation
+<h4>Task Management</h4>
+<ul>
+  <li>Create Task</li>
+  <li>Get All Tasks (Admin)</li>
+  <li>Get My Tasks (User)</li>
+  <li>Pagination & Filtering</li>
+  <li>Ownership validation</li>
+</ul>
 
-### ✅ Infrastructure
-- Global Exception Handling
-- DTO Mapping
-- Repository Pattern
-- Unit of Work
-- Custom Mediator Pattern
+<h4>Infrastructure</h4>
+<ul>
+  <li>Global Exception Handling Middleware</li>
+  <li>DTO Mapping</li>
+  <li>Custom Mediator Pattern</li>
+</ul>
 
-### ✅ Testing
-- Unit Tests for Command Handlers
-- Mocking with NSubstitute
-- Transaction rollback validation
+<h4>Testing</h4>
+<ul>
+  <li>Unit tests for command handlers</li>
+  <li>Mocking with NSubstitute</li>
+</ul>
 
----
+<hr/>
 
-Sample User Credentials
-----------------------------
-User -
-users
-user1234
+<h2>🔑 Sample User Credentials</h2>
 
-Admin - 
-admins
-admin1234
------------------------------------
+<table border="1" cellpadding="8" cellspacing="0">
+  <tr>
+    <th>Username</th>
+    <th>Password</th>
+    <th>Role</th>
+    <th>User ID</th>
+  </tr>
+  <tr>
+    <td>admins</td>
+    <td>admin1234</td>
+    <td>Admin</td>
+    <td>admin-001</td>
+  </tr>
+  <tr>
+    <td>users</td>
+    <td>user1234</td>
+    <td>User</td>
+    <td>user-001</td>
+  </tr>
+</table>
 
-| Username | Password  | Role  | UserId    |
-| -------- | --------- | ----- | --------- |
-| admins   | admin1234 | Admin | admin-001 |
-| users    | user1234  | User  | user-001  |
+<hr/>
 
+<h2>📄 API Endpoints</h2>
 
-## 📄 API Endpoints
-
-### ➕ Create Task
-```
+<h4>➕ Create Task</h4>
+<pre>
 POST /api/tasks
-Authorization: Bearer <token>
-```
+Authorization: Bearer &lt;token&gt;
+</pre>
 
-```json
+<pre>
 {
   "name": "Complete API",
   "description": "Finish Task Management API"
 }
-```
+</pre>
 
----
-
-### 👤 Get My Tasks
-```
+<h4>👤 Get My Tasks</h4>
+<pre>
 GET /api/tasks/my?page=1&recordsPerPage=10
-Authorization: Bearer <token>
-```
+Authorization: Bearer &lt;token&gt;
+</pre>
 
----
-
-### 📋 Get All Tasks
-```
+<h4>📋 Get All Tasks (Admin)</h4>
+<pre>
 GET /api/tasks?page=1&recordsPerPage=10&title=test
-Authorization: Bearer <token>
-```
+Authorization: Bearer &lt;token&gt;
+</pre>
 
----
+<hr/>
 
-## 🗄️ Database Migrations
+<h2>🧪 Unit Test Example</h2>
 
-### Add Migration
-```
-dotnet ef migrations add InitialCreate \
---project TaskManagement.Infrastructure \
---startup-project TaskManagement.API
-```
-
-### Update Database
-```
-dotnet ef database update \
---project TaskManagement.Infrastructure \
---startup-project TaskManagement.API
-```
-
----
-
-## 🧪 Unit Test Example
-
-```csharp
+<pre>
 [TestMethod]
 public async Task Handle_ValidCommand_ReturnsTaskId()
 {
     var command = new CreateTasksCommand { Name = "Test Task" };
     var task = new TaskItem("Test Task");
 
-    repository.Add(Arg.Any<TaskItem>()).Returns(task);
+    repository.Add(Arg.Any&lt;TaskItem&gt;()).Returns(task);
 
     var result = await handler.Handle(command);
 
-    await repository.Received(1).Add(Arg.Any<TaskItem>());
+    await repository.Received(1).Add(Arg.Any&lt;TaskItem&gt;());
     await unitOfWork.Received(1).Commit();
 
     Assert.AreEqual(task.Id, result);
 }
-```
+</pre>
 
----
+<hr/>
 
-## 📌 Best Practices
+<h2>📌 Best Practices Followed</h2>
 
-- Clean Architecture
-- SOLID Principles
-- Dependency Injection
-- Secure JWT Handling
-- Unit Testing
+<ul>
+  <li>Clean Architecture</li>
+  <li>SOLID Principles</li>
+  <li>Dependency Injection</li>
+  <li>Secure JWT Handling</li>
+  <li>Unit Testing</li>
+</ul>
 
----
+<hr/>
 
-## 👨‍💻 Author
+<h2>👨‍💻 Author</h2>
 
-**Developer:** Adeeb Abubacker
-**GitHub:** https://github.com/AdeebAbubacker
+<p>
+  <b>Adeeb Abubacker</b><br/>
+  GitHub:
+  <a href="https://github.com/AdeebAbubacker" target="_blank">
+    https://github.com/AdeebAbubacker
+  </a>
+</p>
 
----
+<hr/>
 
+<h2>✅ Conclusion</h2>
 
+<p>
+  This backend demonstrates a <b>Task Management API</b>
+  using modern <b>ASP.NET Core</b>, secure JWT authentication,
+  and clean architecture principles, fully integrated with an Angular frontend.
+</p>
