@@ -257,7 +257,6 @@ dotnet restore
 ```
 Then set TaskManagement.API as startup project and run
 
-ng serve --open
 <h2>👨‍💻 Author</h2>
 
 <p>
