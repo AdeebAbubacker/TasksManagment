@@ -25,7 +25,7 @@ namespace TaskManagement.API.Controllers
             this.mediator = mediator;
         }
 
-        // 🔹 Create Task (Users only)
+        // Create Task (Users only)
         [HttpPost]
         [Authorize(Roles = "User")]
         public async Task<IActionResult> Post(CreateTaskDto createTaskDto)
@@ -45,7 +45,7 @@ namespace TaskManagement.API.Controllers
             return Ok(taskId);
         }
 
-        // 🔹 Get All Tasks (Admin only)
+        // Get All Tasks (Admin only)
         [HttpGet("all")]
         [Authorize(Roles = "Admin")]
         public async Task<ActionResult<List<TasksListDTO>>> GetAll([FromQuery] GetTasksListQuery query)
@@ -55,7 +55,7 @@ namespace TaskManagement.API.Controllers
             return result.Elements;
         }
 
-        // 🔹 Get User Tasks (Users only, their own)
+        // Get User Tasks (Users only, their own)
 
         [HttpGet("mytasks")]
         [Authorize(Roles = "User")]
@@ -67,7 +67,7 @@ namespace TaskManagement.API.Controllers
         }
 
 
-        // 🔹 Update Task (Users only, their own tasks)
+        // Update Task (Users only, their own tasks)
         [HttpPut("{id}")]
         [Authorize(Roles = "User")]
         public async Task<IActionResult> Put(Guid id, UpdateTasksDTO dto)
@@ -88,7 +88,7 @@ namespace TaskManagement.API.Controllers
             return NoContent();
         }
 
-        // 🔹 Mark Task Completed (Admin only)
+        // Mark Task Completed (Admin only)
         [HttpPut("{id}/status")]
         [Authorize(Roles = "Admin")]
         public async Task<IActionResult> UpdateTaskStatus(Guid id, UpdateTasksStatusDTO statusDto)

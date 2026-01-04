@@ -37,8 +37,6 @@ namespace TaskManagement.Infrastructure.Repositories
         public async Task<IEnumerable<TaskItem>> GetUserFilter(string ownerUserId, MyTasksFilterDTO filter)
         {
             var queryable = context.TaskItems.AsQueryable();
-
-            // 🔐 ENFORCED OWNERSHIP (NON-NEGOTIABLE)
             queryable = queryable.Where(x => x.OwnerUserId == ownerUserId);
 
             if (!string.IsNullOrWhiteSpace(filter.Title))
@@ -55,8 +53,6 @@ namespace TaskManagement.Infrastructure.Repositories
         MyTasksFilterDTO filter)
         {
             var queryable = context.TaskItems.AsQueryable();
-
-            // 🔐 HARD SECURITY FILTER
             queryable = queryable.Where(x => x.OwnerUserId == ownerUserId);
 
             if (!string.IsNullOrWhiteSpace(filter.Title))

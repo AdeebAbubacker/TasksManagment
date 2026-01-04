@@ -1,33 +1,39 @@
 {
   "format": 1,
   "restore": {
-    "/Users/sridharn/Desktop/GtTaskApi/TasksManagment/TaskManagment/TaskManagement.API/TaskManagement.API.csproj": {}
+    "C:\\Users\\91884\\OneDrive\\Desktop\\TaskManagmentSystem\\TaskManagment\\TaskManagement.API\\TaskManagement.API.csproj": {}
   },
   "projects": {
-    "/Users/sridharn/Desktop/GtTaskApi/TasksManagment/TaskManagment/Task.Application/TaskManagment.Application.csproj": {
+    "C:\\Users\\91884\\OneDrive\\Desktop\\TaskManagmentSystem\\TaskManagment\\Task.Application\\TaskManagment.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/sridharn/Desktop/GtTaskApi/TasksManagment/TaskManagment/Task.Application/TaskManagment.Application.csproj",
+        "projectUniqueName": "C:\\Users\\91884\\OneDrive\\Desktop\\TaskManagmentSystem\\TaskManagment\\Task.Application\\TaskManagment.Application.csproj",
         "projectName": "TaskManagment.Application",
-        "projectPath": "/Users/sridharn/Desktop/GtTaskApi/TasksManagment/TaskManagment/Task.Application/TaskManagment.Application.csproj",
-        "packagesPath": "/Users/sridharn/.nuget/packages/",
-        "outputPath": "/Users/sridharn/Desktop/GtTaskApi/TasksManagment/TaskManagment/Task.Application/obj/",
+        "projectPath": "C:\\Users\\91884\\OneDrive\\Desktop\\TaskManagmentSystem\\TaskManagment\\Task.Application\\TaskManagment.Application.csproj",
+        "packagesPath": "C:\\Users\\91884\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\91884\\OneDrive\\Desktop\\TaskManagmentSystem\\TaskManagment\\Task.Application\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/sridharn/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\91884\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/sridharn/Desktop/GtTaskApi/TasksManagment/TaskManagment/Task.Domain/TaskManagemnt.Domain.csproj": {
-                "projectPath": "/Users/sridharn/Desktop/GtTaskApi/TasksManagment/TaskManagment/Task.Domain/TaskManagemnt.Domain.csproj"
+              "C:\\Users\\91884\\OneDrive\\Desktop\\TaskManagmentSystem\\TaskManagment\\Task.Domain\\TaskManagemnt.Domain.csproj": {
+                "projectPath": "C:\\Users\\91884\\OneDrive\\Desktop\\TaskManagmentSystem\\TaskManagment\\Task.Domain\\TaskManagemnt.Domain.csproj"
               }
             }
           }
@@ -84,41 +90,37 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.19, 8.0.19]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[8.0.19, 8.0.19]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.304/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/sridharn/Desktop/GtTaskApi/TasksManagment/TaskManagment/Task.Domain/TaskManagemnt.Domain.csproj": {
+    "C:\\Users\\91884\\OneDrive\\Desktop\\TaskManagmentSystem\\TaskManagment\\Task.Domain\\TaskManagemnt.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/sridharn/Desktop/GtTaskApi/TasksManagment/TaskManagment/Task.Domain/TaskManagemnt.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\91884\\OneDrive\\Desktop\\TaskManagmentSystem\\TaskManagment\\Task.Domain\\TaskManagemnt.Domain.csproj",
         "projectName": "TaskManagemnt.Domain",
-        "projectPath": "/Users/sridharn/Desktop/GtTaskApi/TasksManagment/TaskManagment/Task.Domain/TaskManagemnt.Domain.csproj",
-        "packagesPath": "/Users/sridharn/.nuget/packages/",
-        "outputPath": "/Users/sridharn/Desktop/GtTaskApi/TasksManagment/TaskManagment/Task.Domain/obj/",
+        "projectPath": "C:\\Users\\91884\\OneDrive\\Desktop\\TaskManagmentSystem\\TaskManagment\\Task.Domain\\TaskManagemnt.Domain.csproj",
+        "packagesPath": "C:\\Users\\91884\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\91884\\OneDrive\\Desktop\\TaskManagmentSystem\\TaskManagment\\Task.Domain\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/sridharn/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\91884\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -153,55 +155,51 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.19, 8.0.19]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[8.0.19, 8.0.19]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.304/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/sridharn/Desktop/GtTaskApi/TasksManagment/TaskManagment/TaskManagement.API/TaskManagement.API.csproj": {
+    "C:\\Users\\91884\\OneDrive\\Desktop\\TaskManagmentSystem\\TaskManagment\\TaskManagement.API\\TaskManagement.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/sridharn/Desktop/GtTaskApi/TasksManagment/TaskManagment/TaskManagement.API/TaskManagement.API.csproj",
+        "projectUniqueName": "C:\\Users\\91884\\OneDrive\\Desktop\\TaskManagmentSystem\\TaskManagment\\TaskManagement.API\\TaskManagement.API.csproj",
         "projectName": "TaskManagement.API",
-        "projectPath": "/Users/sridharn/Desktop/GtTaskApi/TasksManagment/TaskManagment/TaskManagement.API/TaskManagement.API.csproj",
-        "packagesPath": "/Users/sridharn/.nuget/packages/",
-        "outputPath": "/Users/sridharn/Desktop/GtTaskApi/TasksManagment/TaskManagment/TaskManagement.API/obj/",
+        "projectPath": "C:\\Users\\91884\\OneDrive\\Desktop\\TaskManagmentSystem\\TaskManagment\\TaskManagement.API\\TaskManagement.API.csproj",
+        "packagesPath": "C:\\Users\\91884\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\91884\\OneDrive\\Desktop\\TaskManagmentSystem\\TaskManagment\\TaskManagement.API\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/sridharn/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\91884\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/sridharn/Desktop/GtTaskApi/TasksManagment/TaskManagment/Task.Application/TaskManagment.Application.csproj": {
-                "projectPath": "/Users/sridharn/Desktop/GtTaskApi/TasksManagment/TaskManagment/Task.Application/TaskManagment.Application.csproj"
+              "C:\\Users\\91884\\OneDrive\\Desktop\\TaskManagmentSystem\\TaskManagment\\Task.Application\\TaskManagment.Application.csproj": {
+                "projectPath": "C:\\Users\\91884\\OneDrive\\Desktop\\TaskManagmentSystem\\TaskManagment\\Task.Application\\TaskManagment.Application.csproj"
               },
-              "/Users/sridharn/Desktop/GtTaskApi/TasksManagment/TaskManagment/Task.Domain/TaskManagemnt.Domain.csproj": {
-                "projectPath": "/Users/sridharn/Desktop/GtTaskApi/TasksManagment/TaskManagment/Task.Domain/TaskManagemnt.Domain.csproj"
+              "C:\\Users\\91884\\OneDrive\\Desktop\\TaskManagmentSystem\\TaskManagment\\Task.Domain\\TaskManagemnt.Domain.csproj": {
+                "projectPath": "C:\\Users\\91884\\OneDrive\\Desktop\\TaskManagmentSystem\\TaskManagment\\Task.Domain\\TaskManagemnt.Domain.csproj"
               },
-              "/Users/sridharn/Desktop/GtTaskApi/TasksManagment/TaskManagment/TaskManagement.Infrastructure/TaskManagement.Infrastructure.csproj": {
-                "projectPath": "/Users/sridharn/Desktop/GtTaskApi/TasksManagment/TaskManagment/TaskManagement.Infrastructure/TaskManagement.Infrastructure.csproj"
+              "C:\\Users\\91884\\OneDrive\\Desktop\\TaskManagmentSystem\\TaskManagment\\TaskManagement.Infrastructure\\TaskManagement.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\91884\\OneDrive\\Desktop\\TaskManagmentSystem\\TaskManagment\\TaskManagement.Infrastructure\\TaskManagement.Infrastructure.csproj"
               }
             }
           }
@@ -252,20 +250,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.19, 8.0.19]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.osx-arm64",
-              "version": "[8.0.19, 8.0.19]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[8.0.19, 8.0.19]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -274,37 +258,43 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.304/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/sridharn/Desktop/GtTaskApi/TasksManagment/TaskManagment/TaskManagement.Infrastructure/TaskManagement.Infrastructure.csproj": {
+    "C:\\Users\\91884\\OneDrive\\Desktop\\TaskManagmentSystem\\TaskManagment\\TaskManagement.Infrastructure\\TaskManagement.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/sridharn/Desktop/GtTaskApi/TasksManagment/TaskManagment/TaskManagement.Infrastructure/TaskManagement.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\91884\\OneDrive\\Desktop\\TaskManagmentSystem\\TaskManagment\\TaskManagement.Infrastructure\\TaskManagement.Infrastructure.csproj",
         "projectName": "TaskManagement.Infrastructure",
-        "projectPath": "/Users/sridharn/Desktop/GtTaskApi/TasksManagment/TaskManagment/TaskManagement.Infrastructure/TaskManagement.Infrastructure.csproj",
-        "packagesPath": "/Users/sridharn/.nuget/packages/",
-        "outputPath": "/Users/sridharn/Desktop/GtTaskApi/TasksManagment/TaskManagment/TaskManagement.Infrastructure/obj/",
+        "projectPath": "C:\\Users\\91884\\OneDrive\\Desktop\\TaskManagmentSystem\\TaskManagment\\TaskManagement.Infrastructure\\TaskManagement.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\91884\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\91884\\OneDrive\\Desktop\\TaskManagmentSystem\\TaskManagment\\TaskManagement.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/sridharn/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\91884\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/sridharn/Desktop/GtTaskApi/TasksManagment/TaskManagment/Task.Application/TaskManagment.Application.csproj": {
-                "projectPath": "/Users/sridharn/Desktop/GtTaskApi/TasksManagment/TaskManagment/Task.Application/TaskManagment.Application.csproj"
+              "C:\\Users\\91884\\OneDrive\\Desktop\\TaskManagmentSystem\\TaskManagment\\Task.Application\\TaskManagment.Application.csproj": {
+                "projectPath": "C:\\Users\\91884\\OneDrive\\Desktop\\TaskManagmentSystem\\TaskManagment\\Task.Application\\TaskManagment.Application.csproj"
               },
-              "/Users/sridharn/Desktop/GtTaskApi/TasksManagment/TaskManagment/Task.Domain/TaskManagemnt.Domain.csproj": {
-                "projectPath": "/Users/sridharn/Desktop/GtTaskApi/TasksManagment/TaskManagment/Task.Domain/TaskManagemnt.Domain.csproj"
+              "C:\\Users\\91884\\OneDrive\\Desktop\\TaskManagmentSystem\\TaskManagment\\Task.Domain\\TaskManagemnt.Domain.csproj": {
+                "projectPath": "C:\\Users\\91884\\OneDrive\\Desktop\\TaskManagmentSystem\\TaskManagment\\Task.Domain\\TaskManagemnt.Domain.csproj"
               }
             }
           }
@@ -355,22 +345,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.19, 8.0.19]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[8.0.19, 8.0.19]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.304/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

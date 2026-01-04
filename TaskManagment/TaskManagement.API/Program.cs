@@ -40,7 +40,7 @@ builder.Services.AddCors(options =>
         policy =>
         {
             policy
-                .WithOrigins("http://localhost:4200")
+                .WithOrigins("http://localhost:4200", "https://adeebabubacker.github.io")
                 .AllowAnyHeader()
                 .AllowAnyMethod();
         });
@@ -106,13 +106,9 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseCustomExceptionHandler();
-
-// IMPORTANT: Routing → CORS → Auth
 app.UseRouting();
 
 app.UseCors("AllowAngular");
-
-// Disable HTTPS redirection for local dev
 // app.UseHttpsRedirection();
 
 app.UseAuthentication();

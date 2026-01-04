@@ -12,7 +12,7 @@ namespace TaskManagement.API.Controllers
     [ApiController]
     public class AuthController : ControllerBase
     {
-        // 🔐 Hardcoded users (NO DB)
+        // Hardcoded users (NO DB)
         private static readonly Dictionary<string, (string Password, string Role, string UserId)> Users =
             new()
             {

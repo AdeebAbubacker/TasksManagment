@@ -1,11 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "D5g7eJWj3/c=",
+  "dgSpecHash": "oTtK9QvMy8s=",
   "success": true,
-  "projectFilePath": "/Users/sridharn/Desktop/GtTaskApi/TasksManagment/TaskManagment/Task.Domain/TaskManagemnt.Domain.csproj",
-  "expectedPackageFiles": [
-    "/Users/sridharn/.nuget/packages/microsoft.netcore.app.ref/8.0.19/microsoft.netcore.app.ref.8.0.19.nupkg.sha512",
-    "/Users/sridharn/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.19/microsoft.aspnetcore.app.ref.8.0.19.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\91884\\OneDrive\\Desktop\\TaskManagmentSystem\\TaskManagment\\Task.Domain\\TaskManagemnt.Domain.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }
